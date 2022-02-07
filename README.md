@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on a NLP project which lets pdf to extract jobs description and finds a suitable job for you
+- 🔭 I’m currently working on a Udemy Course for NLP And deep learning and alongside NLP project which lets pdf to extract jobs description and finds a suitable job for as a part of SIH hackathon
 - 🌱 I’m currently learning java 
 - 👯 I’m looking to collaborate on more of Deep learninng and NLP Open source Projects
 - 🤔 I’m looking for help with Tensorflow, Python and deep learning models 
