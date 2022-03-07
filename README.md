@@ -7,7 +7,8 @@
 
 
 <div align="center">
-<img width="659" alt="Screenshot 2022-03-07 at 7 33 34 PM" src= "https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/GNa2.gif">
+ 
+<img width="560" alt="Screenshot 2022-03-07 at 7 33 34 PM" src= "https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/GNa2.gif">
 
  
 </div>
