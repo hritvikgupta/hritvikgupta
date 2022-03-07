@@ -13,7 +13,8 @@
 
 
 <div align="center">
-<img hight="200" width="300" alt="GIF" align="center" src="https://github.com/hritvikgupta/hritvikgupta/blob/main/GIF/itachi-sharingan.gif">
+<img width="659" alt="Screenshot 2022-03-07 at 7 33 34 PM" src="https://user-images.githubusercontent.com/60143996/157049021-89140b7c-7bed-41a1-a001-66a7fd880717.png">
+
  
 </div>
 </br>
