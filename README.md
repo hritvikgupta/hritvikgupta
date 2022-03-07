@@ -62,10 +62,10 @@
 
 If you want to reach out to me about anything, just ping me 😉😁.
 
-<a href="mailto:harshitpaliwal95@gmail.com">
+<a href="mailto:hritvik7654@gmail.com">
  <img align="left" alt="Gmail" width="130" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/gmail.png" />
 </a>
-<a href="https://www.linkedin.com/in/harshit-paliwal-8302951b0/">
+<a href="https://linkedin.com/in/hritvik-gupta-8469611a3">
   <img align="left" alt="Linkedin" width="150" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/linkedin.png" /> 
 </br>
 
