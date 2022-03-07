@@ -2,7 +2,7 @@
 
 # Hello there 
 
-<img width="560" alt="Screenshot 2022-03-07 at 7 21 59 PM" src="https://user-images.githubusercontent.com/60143996/157048093-b938dbb7-1e9c-42f0-8383-80d272011a7e.png">
+<img width="560" alt="Screenshot 2022-03-07 at 7 21 59 PM" src= "https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/5lto.gif">
 
 
 ![9Ybj](https://user-images.githubusercontent.com/60143996/157052198-e0ea847f-0539-4795-b427-d81a47ae8b98.gif)
