@@ -1,14 +1,8 @@
-### Hi there 👋
-- Reserach Enthusatic person with strong research experience in Natural Language procssing and EEG. For my research papers follow me on Google scholar https://scholar.google.com/citations?hl=en&user=ShxBp2MAAAAJ&view_op=list_works&gmla=AJsN-F4736wr3RpZuzL3k6NAHNI7S3YJ_HdddA-jKQBRaXEvfiiw-5u8UxlmfVoPGG6h_XLBCoY3NPeSXF_0hIKm5zDXfRe0PAUOoCNlhn7HyhH8GDPy8ps
-- 🔭 I’m currently working on a Udemy Course for NLP And deep learning and alongside NLP project which lets pdf to extract jobs description and finds a suitable job for as a part of SIH hackathon
-- 🌱 I’m currently learning java 
-- 👯 I’m looking to collaborate on more of Deep learninng and NLP Open source Projects
-- 🤔 I’m looking for help with Tensorflow, Python and deep learning models 
-- 💬 Ask me about Any thing related to Deep Learning and Tensorflow
-- 📫 How to reach me: https://hritvikgupta.in/ and hritvik7654@gmail.com  
-- ⚡ Fun fact: You Only need stackoverflow in order to be a software developer.
 
-# Hello there <img width="560" alt="Screenshot 2022-03-07 at 7 21 59 PM" src="https://user-images.githubusercontent.com/60143996/157048093-b938dbb7-1e9c-42f0-8383-80d272011a7e.png">
+
+# Hello there 
+
+<img width="560" alt="Screenshot 2022-03-07 at 7 21 59 PM" src="https://user-images.githubusercontent.com/60143996/157048093-b938dbb7-1e9c-42f0-8383-80d272011a7e.png">
 
 
 
@@ -24,19 +18,19 @@
 
 # About ME 💬:
 
-### - I m Harshit😁 (love to learn && love to code)
+### - I m Hritvik Gupta 😁 (Think, Develop and Deploy Thats my hobby)
 
  <img hight="400" width="500" alt="GIF" align="right" src="https://github.com/harshitpaliwal95/hritvikgupta/blob/main/GIF/333aa7192949f306823aa36bd6153d0e.gif">
 
-### - Learning :
-- ✨ Data Structures & Algorithms
-- ✨ - 🌱 I’m currently learning everything 🤣
-- 🥅 2021 Goals: Contribute to Open Source projects
-
-### - Hobbies : 
-- ✨ Watching Anime
-- ✨ Reading Novels
-
+### Hi there 👋
+- Reserach Enthusatic person with strong research experience in Natural Language procssing and EEG. For my research papers follow me on Google scholar https://scholar.google.com/citations?hl=en&user=ShxBp2MAAAAJ&view_op=list_works&gmla=AJsN-F4736wr3RpZuzL3k6NAHNI7S3YJ_HdddA-jKQBRaXEvfiiw-5u8UxlmfVoPGG6h_XLBCoY3NPeSXF_0hIKm5zDXfRe0PAUOoCNlhn7HyhH8GDPy8ps
+- 🔭 I’m currently working on a Udemy Course for NLP And deep learning and alongside NLP project which lets pdf to extract jobs description and finds a suitable job for as a part of SIH hackathon
+- 🌱 I’m currently learning java 
+- 👯 I’m looking to collaborate on more of Deep learninng and NLP Open source Projects
+- 🤔 I’m looking for help with Tensorflow, Python and deep learning models 
+- 💬 Ask me about Any thing related to Deep Learning and Tensorflow
+- 📫 How to reach me: https://hritvikgupta.in/ and hritvik7654@gmail.com  
+- ⚡ Fun fact: You Only need stackoverflow in order to be a software developer.
 </br>
 </br>
 </br>
