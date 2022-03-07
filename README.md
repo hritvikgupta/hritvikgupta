@@ -8,7 +8,9 @@
 - 📫 How to reach me: https://hritvikgupta.in/ and hritvik7654@gmail.com  
 - ⚡ Fun fact: You Only need stackoverflow in order to be a software developer.
 
-# Hello there <img src="https://github.com/hritvikgupta/hritvikgupta/blob/cd8f31d1163c2730426cf2dbddffcca54540ef22/src_/Screenshot%202022-03-07%20at%207.21.59%20PM.png" width="35px">
+# Hello there <img width="560" alt="Screenshot 2022-03-07 at 7 21 59 PM" src="https://user-images.githubusercontent.com/60143996/157048093-b938dbb7-1e9c-42f0-8383-80d272011a7e.png">
+
+
 
 <div align="center">
 <img hight="200" width="300" alt="GIF" align="center" src="https://github.com/hritvikgupta/hritvikgupta/blob/main/GIF/itachi-sharingan.gif">
