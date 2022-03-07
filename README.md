@@ -57,7 +57,7 @@
  </br>
 
 <div>
-<img hight="320" width="450" align="right" alt="GIF" src="https://github.com/hritvikgupta/hritvikgupta/blob/main/GIF/smile-naruto.gif">
+<img hight="320" width="450" align="right" alt="GIF" src="https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/9DPG.gif">
 
 
 If you want to reach out to me about anything, just ping me 😉😁.
