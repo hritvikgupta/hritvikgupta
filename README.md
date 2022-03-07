@@ -39,7 +39,7 @@
 </br>
 
 <p align="center">
-https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/Screenshot%202022-03-07%20at%208.22.04%20PM.png
+
 
 <img align="left" alt="Visual Studio Code" width="26px" src="https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/Screenshot%202022-03-07%20at%208.33.02%20PM.png" />
 <img align="left" alt="GitHub" width="26px" src="https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/Screenshot%202022-03-07%20at%208.33.27%20PM.png" />
