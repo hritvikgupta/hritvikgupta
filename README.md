@@ -4,19 +4,6 @@
 
 <img width="560" alt="Screenshot 2022-03-07 at 7 21 59 PM" src= "https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/5lto.gif">
 
-
-
-<div align="center">
- 
-<img width="560" alt="Screenshot 2022-03-07 at 7 33 34 PM" src= "https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/GNa2.gif">
-
- 
-</div>
-</br>
-</hr>
-</br>
-
-
 # About ME 💬:
 
 ### - I m Hritvik Gupta 😁 (Think, Develop and Deploy Thats my hobby)
@@ -35,6 +22,19 @@
 </br>
 </br>
 </br>
+
+
+<div align="center">
+ 
+<img width="560" alt="Screenshot 2022-03-07 at 7 33 34 PM" src= "https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/GNa2.gif">
+
+ 
+</div>
+</br>
+</hr>
+</br>
+
+
 
 
 
