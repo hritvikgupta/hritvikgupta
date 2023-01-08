@@ -8,14 +8,12 @@
 
 ### - I m Hritvik Gupta 😁 (Think, Develop and Deploy Thats my hobby)
 
-- Application developer with experience in developing android application using kotlin and java. Designed and coded from specifications, analyzed,
-evaluated and tested complex software apps. 
-
-- Reserach Enthusatic person with strong research experience in Natural Language procssing and EEG. For my research papers follow me on Google scholar https://scholar.google.com/citations?hl=en&user=ShxBp2MAAAAJ&view_op=list_works&gmla=AJsN-F4736wr3RpZuzL3k6NAHNI7S3YJ_HdddA-jKQBRaXEvfiiw-5u8UxlmfVoPGG6h_XLBCoY3NPeSXF_0hIKm5zDXfRe0PAUOoCNlhn7HyhH8GDPy8ps
-- 🔭 I’m currently working on a advanced android developement alongside REST APIs.
-- 🌱 I’m currently learning Kotlin | Android Studio
+- Android Application developer with experience in developing android application using kotlin and java. Designed, Developed and Intergrate advanced android application with modern frameworks such as MVI, MVVM architecuture
+- Reserach Enthusatic person with strong research experience in Natural Language procssing and EEG. For my research papers follow me on Google scholar 
+- 🔭 I’m currently working on advanced android developement frameworks and backend APIs.
+- 🌱 I’m currently learning JUnit| Android Studio
 - 👯 I’m looking to collaborate on more of Android projects.
-- 🤔 I’m looking for help with Tensorflow, Python and deep learning models 
+- 🤔 I’m looking for help with Expresso, Dagger and Unit Testing.  
 - 💬 Ask me about Any thing related to Android application development, deep Learning and Tensorflow
 - 📫 How to reach me: https://hritvikgupta.in/ and hritvik7654@gmail.com  
 - ⚡ Fun fact: You Only need stackoverflow in order to be a software developer.
@@ -23,6 +21,12 @@ evaluated and tested complex software apps.
 </br>
 </br>
 
+![image](https://user-images.githubusercontent.com/60143996/211176246-af19d68d-0dbe-483a-9109-29a533a4d455.png)
+
+
+<a href="
+https://scholar.google.com/citations?hl=en&user=ShxBp2MAAAAJ&view_op=list_works&gmla=AJsN-F4736wr3RpZuzL3k6NAHNI7S3YJ_HdddA-jKQBRaXEvfiiw-5u8UxlmfVoPGG6h_XLBCoY3NPeSXF_0hIKm5zDXfRe0PAUOoCNlhn7HyhH8GDPy8psm">
+  <img align="left" alt="Linkedin" width="150" hight="100" src="https://user-images.githubusercontent.com/60143996/211176246-af19d68d-0dbe-483a-9109-29a533a4d455.png" /> 
 
 <div align="center">
  
