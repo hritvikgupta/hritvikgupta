@@ -69,7 +69,6 @@ If you want to reach out to me about anything, just ping me 😉😁.
 </a>
 <a href="https://linkedin.com/in/hritvik-gupta-8469611a3">
   <img align="left" alt="Linkedin" width="150" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/linkedin.png" /> 
-</br>
 <a href="https://scholar.google.com/citations?hl=en&user=ShxBp2MAAAAJ&view_op=list_works&gmla=AJsN-F4736wr3RpZuzL3k6NAHNI7S3YJ_HdddA-jKQBRaXEvfiiw-5u8UxlmfVoPGG6h_XLBCoY3NPeSXF_0hIKm5zDXfRe0PAUOoCNlhn7HyhH8GDPy8psm">
  <img align="left" alt="Linkedin" width="100" height="100" src="https://user-images.githubusercontent.com/60143996/211176246-af19d68d-0dbe-483a-9109-29a533a4d455.png" /> 
 </a>
