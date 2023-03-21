@@ -8,7 +8,7 @@
 
 ### - I m Hritvik Gupta 😁 (Think, Develop and Deploy Thats my hobby)
 
-- Android Application developer with experience in developing android application using kotlin and java. Designed, Developed and Intergrate advanced android application with modern frameworks such as MVI, MVVM architecuture
+- Android Application developer with experience in kotlin and java. Designed, Developed and Intergrated advanced android application with modern frameworks such as MVC, MVVM architecuture
 - Reserach Enthusatic person with strong research experience in Natural Language procssing and EEG. For my research papers follow me on Google scholar 
 - 🔭 I’m currently working on advanced android developement frameworks and backend APIs.
 - 🌱 I’m currently learning JUnit| Android Studio
