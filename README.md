@@ -13,10 +13,10 @@ I am an Android application developer with experience in Kotlin and Java. I have
 
 ### Current Focus
 
-🔭 I’m currently working on advanced Android development frameworks and backend APIs.
-🌱 I’m currently learning JUnit | Android Studio.
-👯 I’m looking to collaborate on more Android projects.
-🤔 I’m looking for help with Espresso, Dagger, and Unit Testing.
+- 🔭 I’m currently working on advanced Android development frameworks and backend APIs.
+- 🌱 I’m currently learning JUnit | Android Studio.
+- 👯 I’m looking to collaborate on more Android projects.
+- 🤔 I’m looking for help with Espresso, Dagger, and Unit Testing.
 
 ### Ask Me About
 
