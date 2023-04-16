@@ -56,12 +56,9 @@
 
 <img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" />
 <img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" />
-<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terminal/terminal-original.svg" />
 <img align="left" alt="IntelliJ IDEA" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/intellij/intellij-original.svg" />
 <img align="left" alt="Xcode" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xcode/xcode-original.svg" />
 <img align="left" alt="Jupyter" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original-wordmark.svg" />
-<img align="left" alt="Visual Studio" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" />
-
 </br>
 </br>
 
