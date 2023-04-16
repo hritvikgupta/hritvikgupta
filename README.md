@@ -53,6 +53,23 @@
 <img align="left" alt="Xamarin" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xamarin/xamarin-original.svg" />
 <img align="left" alt="Flutter" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" />
 <img align="left" alt="Swift" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" />
+
+<img align="left" alt="Visual Studio Code" width="26px" src="https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/Screenshot%202022-03-07%20at%208.33.02%20PM.png" />
+<img align="left" alt="GitHub" width="26px" src="https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/Screenshot%202022-03-07%20at%208.33.27%20PM.png" />
+<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
+<img align="left" alt="IntelliJ IDEA" width="26px" src="https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/Screenshot%202022-03-07%20at%208.32.12%20PM.png" />
+<img align="left" alt="Xcode" width="26px" src="https://developer.apple.com/design/human-interface-guidelines/macos/images/app-icon-realistic-materials_2x.png" />
+<img align="left" alt="Jupyter" width="26px" src="https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/Screenshot%202022-03-07%20at%208.34.14%20PM.png" />
+<img align="left" alt="Visual Studio" width="26px" src="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/BrandVisualStudioWin2019-3.svg" />
+<img align="left" alt="Eclipse" width="26px" src="https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/Screenshot%202022-03-07%20at%208.33.56%20PM.png" />
+<img align="left" alt="Linux Kernel" width="26px" src="https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/Screenshot%202022-03-07%20at%208.30.09%20PM.png" />
+
+<img align="left" alt="MongoDB" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" />
+<img align="left" alt="SQLite" width="26px" src="https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/Screenshot%202022-03-07%20at%208.31.28%20PM.png" />
+<img align="left" alt="Room" width="26px" src="https://developer.android.com/topic/libraries/architecture/images/room-icon.svg" />
+
+<img align="left" alt="JUnit" width="26px" src="https://seeklogo.com/images/J/junit-logo-9E4448BCE3-seeklogo.com.png" />
+
 </br>
 </br>
 
