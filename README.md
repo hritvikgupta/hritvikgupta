@@ -61,14 +61,6 @@
 <img align="left" alt="Xcode" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xcode/xcode-original.svg" />
 <img align="left" alt="Jupyter" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original-wordmark.svg" />
 <img align="left" alt="Visual Studio" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" />
-<img align="left" alt="Eclipse" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/eclipse/eclipse-original.svg" />
-<img align="left" alt="Linux Kernel" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" />
-
-<img align="left" alt="MongoDB" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" />
-<img align="left" alt="SQLite" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original-wordmark.svg" />
-<img align="left" alt="Room" width="26px" src="https://developer.android.com/topic/libraries/architecture/images/room-icon.svg" />
-
-<img align="left" alt="JUnit" width="26px" src="https://raw.githubusercontent.com/junit-team/junit5/main/documentation/src/main/resources/images/junit5-logo.png" />
 
 </br>
 </br>
