@@ -5,21 +5,32 @@
 <img width="560" alt="Screenshot 2022-03-07 at 7 21 59 PM" src= "https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/5lto.gif">
 
 # About ME 💬:
+# Hritvik Gupta 😁
 
-### - I m Hritvik Gupta 😁 (Think, Develop and Deploy Thats my hobby)
+### About Me
 
-- Android Application developer with experience in kotlin and java. Designed, Developed and Intergrated advanced android application with modern frameworks such as MVC, MVVM architecuture
-- Reserach Enthusatic person with strong research experience in Natural Language procssing and EEG. For my research papers follow me on Google scholar 
-- 🔭 I’m currently working on advanced android developement frameworks and backend APIs.
-- 🌱 I’m currently learning JUnit| Android Studio
-- 👯 I’m looking to collaborate on more of Android projects.
-- 🤔 I’m looking for help with Expresso, Dagger and Unit Testing.  
-- 💬 Ask me about Any thing related to Android application development, deep Learning and Tensorflow
-- 📫 How to reach me: https://hritvikgupta.in/ and hritvik7654@gmail.com  
-- ⚡ Fun fact: You Only need stackoverflow in order to be a software developer.
-</br>
-</br>
-</br>
+I am an Android application developer with experience in Kotlin and Java. I have designed, developed, and integrated advanced Android applications using modern frameworks such as MVC, MVVM architecture. I am also a research enthusiast with strong research experience in Natural Language Processing and EEG. You can follow my research papers on Google Scholar.
+
+### Current Focus
+
+🔭 I’m currently working on advanced Android development frameworks and backend APIs.
+🌱 I’m currently learning JUnit | Android Studio.
+👯 I’m looking to collaborate on more Android projects.
+🤔 I’m looking for help with Espresso, Dagger, and Unit Testing.
+
+### Ask Me About
+
+Anything related to Android application development, deep learning, and Tensorflow.
+
+### Contact Me
+
+You can reach me at hritvik7654@gmail.com or visit my website https://hritvikgupta.in/
+
+### Fun Fact
+
+You only need Stack Overflow to be a software developer!
+
+
 
 
 
