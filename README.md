@@ -92,7 +92,7 @@ You only need Stack Overflow to be a software developer!
 2. Actively reviewing and debugging code in various GitHub repositories as an open-source contributor.
 3. Conveying valuable insights and detailed information through engaging and well-researched [blogs](https://hritvikgupta.netlify.app/#blogs).
 
-## Contact Me 📫:
+## Portfolio  📫:
 visit my [website](https://hritvikgupta.netlify.app).
 ## Connect with me:
 <p align="left">
