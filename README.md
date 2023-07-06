@@ -55,8 +55,6 @@
 
 <br />
 <br />
-<br />
-<br />
 
 ## Projects:
 
