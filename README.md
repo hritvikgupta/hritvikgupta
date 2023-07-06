@@ -12,7 +12,7 @@
 - 💬 Ask me about **React.js, Redux, Node.js, Express.js**
 - 📫 How to reach me: **hritvik7654@gmail.com**
 - 📄 You can check my [Resume here](https://drive.google.com/file/d/1u8Ie3a5n6IaR3K2b1v4rHSy1dWZicxUT/view?usp=sharing)
-- 
+  
 </br>
 
 ## Fun Fact 😄:
