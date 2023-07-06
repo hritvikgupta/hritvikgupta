@@ -19,6 +19,7 @@
 You only need Stack Overflow to be a software developer!
 
 </br>
+
 ## Languages and Tools:
 <p align="left">
 <img align="left" alt="JavaScript" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
