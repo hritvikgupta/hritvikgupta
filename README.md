@@ -25,7 +25,6 @@
 <img align="left" alt="JavaScript" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
 <img align="left" alt="React.js" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
 <img align="left" alt="Redux" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" />
-<img align="left" alt="JUnit" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/junit/junit-plain.svg" />
 <img align="left" alt="Tensorflow" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" />
 <img align="left" alt="Jest" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" />
 <img align="left" alt="Jetpack Compose" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetbrains/jetbrains-original.svg" />
