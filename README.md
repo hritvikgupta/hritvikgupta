@@ -14,10 +14,6 @@
 - 📄 You can check my [Resume here](https://drive.google.com/file/d/1u8Ie3a5n6IaR3K2b1v4rHSy1dWZicxUT/view?usp=sharing)
 
 </br>
-</br>
-</br>
-</br>
-
 ## Languages and Tools:
 <p align="left">
 <img align="left" alt="JavaScript" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
@@ -88,6 +84,8 @@ visit my [website](https://hritvikgupta.netlify.app).
 </a>
 
 </p>
+</br>
+</br>
 
 ## Fun Fact 😄:
 You only need Stack Overflow to be a software developer!
