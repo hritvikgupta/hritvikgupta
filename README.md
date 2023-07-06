@@ -29,10 +29,6 @@
 <img align="left" alt="Tensorflow" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" />
 <img align="left" alt="Jest" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" />
 <img align="left" alt="Jetpack Compose" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetbrains/jetbrains-original.svg" />
-<img align="leftHere's the completion of the markdown you've provided:
-
-```markdown
-" alt="Retrofit" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" />
 <img align="left" alt="Room" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" />
 <img align="left" alt="Java" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" />
 <img align="left" alt="Kotlin" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" />
@@ -61,10 +57,7 @@
 
 2. **[Shoe E-commerce Store](https://github.com/hritvikgupta/Shoe-E-commerce-Store)**: Built a full-stack e-commerce store with features like user registration, adding to cart, and payment gateway using React, Node.js, Express.js, and MongoDB.
 
-3. **[To-Do-List-AppHere's the final part:
-
-```markdown
-](https://github.com/hritvikgupta/To-Do-List-App)**: Created a task management app by utilizing Kotlin, HILT, and Room within an MVC framework to build an application with sharing, reminders, attachments, social logins (Google/Facebook), and local storage. Published on Google Play.
+3. **[To-Do-List-AppHere's the final part](https://github.com/hritvikgupta/To-Do-List-App)**: Created a task management app by utilizing Kotlin, HILT, and Room within an MVC framework to build an application with sharing, reminders, attachments, social logins (Google/Facebook), and local storage. Published on Google Play.
 
 ## Open Source Contributions 👨‍💻:
 
