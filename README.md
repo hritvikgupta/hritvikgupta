@@ -49,8 +49,6 @@
 <img align="left" alt="IntelliJ IDEA" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/intellij/intellij-original.svg" />
 <img align="left" alt="Xcode" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xcode/xcode-original.svg" />
 <img align="left" alt="Jupyter" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original-wordmark.svg" />
-</br>
-</br>
 </p>
 
 ## Connect with me:
