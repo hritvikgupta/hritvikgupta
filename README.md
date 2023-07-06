@@ -33,6 +33,8 @@
 <img align="left" alt="Java" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" />
 <img align="left" alt="Kotlin" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" />
 <img align="left" alt="Python" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
+</p>
+<p>
 <img align="left" alt="Android Studio" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" />
 <img align="left" alt="Tensorflow" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" />
 <img align="left" alt="React Native" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
