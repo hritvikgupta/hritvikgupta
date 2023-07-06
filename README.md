@@ -3,7 +3,6 @@
 </p>
 <img width="560" alt="Screenshot 2022-03-07 at 7 21 59 PM" src= "https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/5lto.gif">
 
-
 ## Hi there 👋, my name is Hritvik
 
 - 🔭 I’m currently working on **Notetaking Application**
@@ -30,8 +29,10 @@
 <img align="left" alt="Tensorflow" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" />
 <img align="left" alt="Jest" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" />
 <img align="left" alt="Jetpack Compose" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetbrains/jetbrains-original.svg" />
-<img align="left" alt="Retrofit" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg```markdown
-" />
+<img align="leftHere's the completion of the markdown you've provided:
+
+```markdown
+" alt="Retrofit" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" />
 <img align="left" alt="Room" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" />
 <img align="left" alt="Java" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" />
 <img align="left" alt="Kotlin" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" />
@@ -51,13 +52,19 @@
 <img align="left" alt="Jupyter" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original-wordmark.svg" />
 </p>
 
+<br />
+<br />
+
 ## Projects:
 
 1. **[Note Taking App](https://github.com/hritvikgupta/Note-Taking-App)**: Developed an Android app that allows users to create, edit, and manage notes with added features of tagging, priority, and search function, using Kotlin, MVVM architecture, Room for local storage, and Material Design for UI/UX.
 
 2. **[Shoe E-commerce Store](https://github.com/hritvikgupta/Shoe-E-commerce-Store)**: Built a full-stack e-commerce store with features like user registration, adding to cart, and payment gateway using React, Node.js, Express.js, and MongoDB.
 
-3. **[To-Do-List-App](https://github.com/hritvikgupta/To-Do-List-App)**: Created a task management app by utilizing Kotlin, HILT, and Room within an MVC framework to build an application with sharing, reminders, attachments, social logins (Google/Facebook), and local storage. Published on Google Play.
+3. **[To-Do-List-AppHere's the final part:
+
+```markdown
+](https://github.com/hritvikgupta/To-Do-List-App)**: Created a task management app by utilizing Kotlin, HILT, and Room within an MVC framework to build an application with sharing, reminders, attachments, social logins (Google/Facebook), and local storage. Published on Google Play.
 
 ## Open Source Contributions 👨‍💻:
 
