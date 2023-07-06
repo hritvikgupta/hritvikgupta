@@ -1,6 +1,8 @@
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=hritvikgupta&label=Profile%20views&color=0e75b6&style=flat" alt="hritvikgupta profile views" />
 </p>
+<img width="560" alt="Screenshot 2022-03-07 at 7 21 59 PM" src= "https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/5lto.gif">
+
 
 ## Hi there 👋, my name is Hritvik
 
