@@ -35,6 +35,25 @@
 <img align="left" alt="Room" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" />
 </p>
 
+<p align="center">
+<img align="left" alt="Java" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" />
+<img align="left" alt="Kotlin" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" />
+<img align="left" alt="Python" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
+<img align="left" alt="Android Studio" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" />
+<img align="left" alt="Tensorflow" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" />
+<img align="left" alt="React Native" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
+<img align="left" alt="Ionic" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ionic/ionic-original.svg" />
+<img align="left" alt="Xamarin" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xamarin/xamarin-original.svg" />
+<img align="left" alt="Flutter" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" />
+<img align="left" alt="Swift" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" />
+
+<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" />
+<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" />
+<img align="left" alt="IntelliJ IDEA" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/intellij/intellij-original.svg" />
+<img align="left" alt="Xcode" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xcode/xcode-original.svg" />
+<img align="left" alt="Jupyter" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original-wordmark.svg" />
+</br>
+</br>
 ## Projects 📚:
 
 1. **[Note Taking App](https://github.com/hritvikgupta/Note-Taking-App)**: Developed an Android app that allows users to create, edit, and manage notes with added features of tagging, priority, and search function, using Kotlin, MVVM architecture, Room for local storage, and Material Design for UI/UX.
