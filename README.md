@@ -12,6 +12,11 @@
 - 💬 Ask me about **React.js, Redux, Node.js, Express.js**
 - 📫 How to reach me: **hritvik7654@gmail.com**
 - 📄 You can check my [Resume here](https://drive.google.com/file/d/1u8Ie3a5n6IaR3K2b1v4rHSy1dWZicxUT/view?usp=sharing)
+- 
+</br>
+
+## Fun Fact 😄:
+You only need Stack Overflow to be a software developer!
 
 </br>
 ## Languages and Tools:
@@ -89,5 +94,15 @@ visit my [website](https://hritvikgupta.netlify.app).
 </br>
 </br>
 
-## Fun Fact 😄:
-You only need Stack Overflow to be a software developer!
+# Stats :
+</br>
+</br>
+<div align ="center">
+ <p>
+  <img  src="https://github-readme-stats.vercel.app/api/top-langs?username=hritvikgupta&show_icons=true&locale=en&layout=compact&theme=blue-green" alt="hritvikgupta" /></p>
+</br>
+<img alt= "stats card" height="200px" width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=hritvikgupta&theme=blue-green">
+</br>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hritvikgupta&show_icons=true&theme=blue-green" alt="hritvikgupta" /></p>
+</div>
+
