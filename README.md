@@ -15,6 +15,7 @@ As a forward-thinking Master's graduate in Computer Engineering with global educ
 
 ## Education
 🎓 I am pursuing my Master's in Computer Engineering from University Of California, Riverside : GPA 3.7 | expected graduation: December 2023. 
+
 🎓 I have finished my Bachelor of Technology in Computer Science and Engineering from GITS Udaipur, India : GPA 3.9 | graduated: May 2022.
 
 </br>
