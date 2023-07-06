@@ -8,12 +8,18 @@
 </br>
 
 ## Who am I?
-I am a forward-thinking Master of Computer Engineering graduate with a passion for solving problems through technology. During my undergraduate studies, I gained experience in multiple programming languages and technologies and made significant contributions to open-source projects. I decided to further my education to deepen my understanding of the tech industry and broaden my skill set.
+As a forward-thinking Master's graduate in Computer Engineering with global educational exposure, I chose to pursue an advanced degree immediately after my Bachelor's to deepen my technical knowledge and practice. My proficiency spans various programming languages and technologies, and I have demonstrated the ability to deliver efficient web and Android solutions, including open-source contributions. Driven by curiosity, I've delved into research on Natural Language Processing and human cognition. Combining resilience, innovative thinking, and an insatiable desire to learn, I am prepared to positively impact and push the tech boundaries in any team.
+
 
 </br>
 
 ## Education
-I completed my Bachelor's in Technology from Geetanjali Institute of Technical Studies in Udaipur, India, before moving to the University of California, Riverside, where I am pursuing my Master's in Computer Engineering.
+- I am pursuing my Master's in Computer Engineering from University Of California, Riverside : GPA 3.7 | expected grad december 2023.
+- I have finished my bachelors of technology in Computer science and engineering from GITS Udaipur, India : GPA 3.9 | graduated May 2022
+
+</br>
+
+## Current Focus
 - 🔭 I’m currently working on **Notetaking Application**
 - 🌱 I’m currently learning **React.js, TypeScript, MongoDB**
 - 👯 I’m looking to collaborate on **Open Source Projects**
