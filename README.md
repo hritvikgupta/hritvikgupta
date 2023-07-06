@@ -4,119 +4,83 @@
 
 <img width="560" alt="Screenshot 2022-03-07 at 7 21 59 PM" src= "https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/5lto.gif">
 
-# About ME 💬:
-# Hritvik Gupta 😁
+About Me 💬:
+Hritvik Gupta 😁
+Who am I?
+I am a forward-thinking Master of Computer Engineering graduate with a passion for solving problems through technology. During my undergraduate studies, I gained experience in multiple programming languages and technologies and made significant contributions to open-source projects. I decided to further my education to deepen my understanding of the tech industry and broaden my skill set.
 
-### About Me
+Education
+I completed my Bachelor's in Technology from Geetanjali Institute of Technical Studies in Udaipur, India, before moving to the University of California, Riverside, where I am pursuing my Master's in Computer Engineering.
 
-I am an Android application developer with experience in Kotlin and Java. I have designed, developed, and integrated advanced Android applications using modern frameworks such as MVC, MVVM architecture. I am also a research enthusiast with strong research experience in Natural Language Processing and EEG. You can follow my research papers on Google Scholar.
+Current Focus
+🔭 I’m currently focused on web and Android development. I have experience working with a range of technologies, including React.js, Bootstrap, RapidAPI, Axios, Kotlin, HILT, and Room, to build dynamic and user-friendly applications.
+🌱 I’m currently researching Natural Language Processing and Human Cognition, an interest sparked by my innate curiosity about the intersection of technology and psychology.
+Ask Me About
+Anything related to web and Android application development, deep learning, and my research in Natural Language Processing and Human Cognition.
 
-### Current Focus
+Contact Me
+Feel free to reach me at hritvik7654@gmail.com or visit my personal website here.
 
-- 🔭 I’m currently working on advanced Android development frameworks and backend APIs.
-- 🌱 I’m currently learning JUnit | Android Studio.
-- 👯 I’m looking to collaborate on more Android projects.
-- 🤔 I’m looking for help with Espresso, Dagger, and Unit Testing.
-
-### Ask Me About
-
-Anything related to Android application development, deep learning, and Tensorflow.
-
-### Contact Me
-
-You can reach me at hritvik7654@gmail.com or visit my website https://hritvikgupta.in/
-
-### Fun Fact
-
-You only need Stack Overflow to be a software developer!
-
-
-
-
+Fun Fact
+Despite the common misconception, you don't need to remember everything. Google and Stack Overflow are your best friends in the tech industry!
 
 <div align="center">
- 
-<img width="560" alt="Screenshot 2022-03-07 at 7 33 34 PM" src= "https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/GNa2.gif">
+Fun
 
- 
 </div>
 </br>
 </hr>
 </br>
-
-
-
-
-
-# Languages & Tools 👨‍💻 🛠:
+Languages & Tools 👨‍💻 🛠:
 </br>
-
 <p align="center">
-
-
+<img align="left" alt="Python" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
+<img align="left" alt="HTML/CSS" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
+<img align="left" alt="JavaScript/Typescript" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
 <img align="left" alt="Java" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" />
 <img align="left" alt="Kotlin" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" />
-<img align="left" alt="Python" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
-<img align="left" alt="Android Studio" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" />
-<img align="left" alt="Tensorflow" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" />
-<img align="left" alt="React Native" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
-<img align="left" alt="Ionic" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ionic/ionic-original.svg" />
-<img align="left" alt="Xamarin" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xamarin/xamarin-original.svg" />
-<img align="left" alt="Flutter" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" />
+<img align="left" alt="C++" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" />
+<img align="left" alt="SQL" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sql/sql-original.svg" />
 <img align="left" alt="Swift" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" />
-
-<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" />
-<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" />
-<img align="left" alt="IntelliJ IDEA" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/intellij/intellij-original.svg" />
-<img align="left" alt="Xcode" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xcode/xcode-original.svg" />
-<img align="left" alt="Jupyter" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original-wordmark.svg" />
+<img align="left" alt="React.js" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
+<img align="left" alt="Bootstrap" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg" />
+<img align="left" alt="Redux"width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" />
+<img align="left" alt="JUnit" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/junit/junit-plain.svg" />
+<img align="left" alt="Tensorflow" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" />
+<img align="left" alt="Jest" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" />
+<img align="left" alt="Jetpack Compose" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetbrains/jetbrains-original.svg" />
+<img align="left" alt="Retrofit" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" />
+<img align="left" alt="Dagger/HILT" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" />
+<img align="left" alt="Git" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" />
+<img align="left" alt="JSON" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/json/json-original.svg" />
+<img align="left" alt="MongoDB" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" />
+<img align="left" alt="Android SDK" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" />
+<img align="left" alt="Firebase" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" />
+<img align="left" alt="AWS" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg" />
+<img align="left" alt="Gradle" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gradle/gradle-plain.svg" />
+<img align="left" alt="Jira" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original.svg" />
+</p>
 </br>
-</br>
+Projects 🚀:
+Notetaking Application (React.js, Bootstrap, Typescript, MongoDB): Developed a comprehensive note-taking application. Implemented CRUD features such as dynamic tag editing and efficient note search functionality by leveraging React and custom hooks for state management.
 
+Travel App (React.js, Bootstrap, Rapid API, Axios): Constructed an interactive web application. Integrated Google Maps and utilized RapidAPI to enable users to discover attractions, hotels, and restaurants.
 
+E-commerce Website (React.js, Stripe, CSS3): Employed React for the frontend, Stripe for secure payment processing, and CSS for styling to develop a dynamic and user-friendly e-commerce platform.
 
-# Contact Me :
+To-Do List App (Kotlin, HILT, Room, MVC): Created a task management app by utilizing Kotlin, HILT, and Room within an MVC framework to build an application with sharing, reminders, attachments, social logins (Google/Facebook), and local storage. Published on Google Play.
 
-<p>
- </br>
+Open Source Contributions 👨‍💻:
+Shoe-ecom-store: Implemented net banking options in the payment portal of an e-commerce shoe store using React and TypeScript. This addition enhanced customer payment flexibility, allowing UPI Transactions.
 
-<div>
-<img hight="320" width="450" align="right" alt="GIF" src="https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/9DPG.gif">
+React To-do App: Worked on a code base of a user-friendly to-do list application integrating Firebase Authentication for secure user login using Redux and Framer Motion.
 
+Extra-curricular Activities 🎯:
+Published 3 research papers on Natural Language Processing and EEG in IEEE Journal Google Scholar
+Actively reviewing and debugging code in various GitHub repositories as an open-source contributor.
+Conveying valuable insights and detailed information through engaging and well-researched blogs.
+Contact Me 📫:
+You can reach me at hritvik7654@gmail.com or visit my website.
 
-If you want to reach out to me about anything, just ping me 😉😁.
-
-<a href="mailto:hritvik7654@gmail.com">
- <img align="left" alt="Gmail" width="130" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/gmail.png" />
-</a>
-<a href="https://linkedin.com/in/hritvik-gupta-8469611a3">
-  <img align="left" alt="Linkedin" width="150" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/linkedin.png" /> 
-<a href="https://scholar.google.com/citations?hl=en&user=ShxBp2MAAAAJ&view_op=list_works&gmla=AJsN-F4736wr3RpZuzL3k6NAHNI7S3YJ_HdddA-jKQBRaXEvfiiw-5u8UxlmfVoPGG6h_XLBCoY3NPeSXF_0hIKm5zDXfRe0PAUOoCNlhn7HyhH8GDPy8psm">
- <img align="left" alt="Linkedin" width="100" height="100" src="https://user-images.githubusercontent.com/60143996/211176246-af19d68d-0dbe-483a-9109-29a533a4d455.png" /> 
-</a>
-
- </p>
- </div> 
-
-</br> 
-</br>
-</br> 
-</br>
-</br>
-</br>
-</br> 
-
-
-# Stats :
-</br>
-</br>
-<div align ="center">
- <p>
-  <img  src="https://github-readme-stats.vercel.app/api/top-langs?username=hritvikgupta&show_icons=true&locale=en&layout=compact&theme=blue-green" alt="hritvikgupta" /></p>
-</br>
-<img alt= "stats card" height="200px" width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=hritvikgupta&theme=blue-green">
-</br>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hritvikgupta&show_icons=true&theme=blue-green" alt="hritvikgupta" /></p>
-</div>
-
-*************
+Fun Fact 😄:
+You only need Stack Overflow to be a software developer!
