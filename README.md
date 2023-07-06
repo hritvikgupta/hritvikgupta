@@ -5,6 +5,15 @@
 
 ## Hi there 👋, my name is Hritvik
 
+</br>
+
+## Who am I?
+I am a forward-thinking Master of Computer Engineering graduate with a passion for solving problems through technology. During my undergraduate studies, I gained experience in multiple programming languages and technologies and made significant contributions to open-source projects. I decided to further my education to deepen my understanding of the tech industry and broaden my skill set.
+
+</br>
+
+## Education
+I completed my Bachelor's in Technology from Geetanjali Institute of Technical Studies in Udaipur, India, before moving to the University of California, Riverside, where I am pursuing my Master's in Computer Engineering.
 - 🔭 I’m currently working on **Notetaking Application**
 - 🌱 I’m currently learning **React.js, TypeScript, MongoDB**
 - 👯 I’m looking to collaborate on **Open Source Projects**
