@@ -13,18 +13,6 @@
 - 📫 How to reach me: **hritvik7654@gmail.com**
 - 📄 You can check my [Resume here](https://drive.google.com/file/d/1u8Ie3a5n6IaR3K2b1v4rHSy1dWZicxUT/view?usp=sharing)
 
-## Connect with me:
-<p align="left">
-<a href="mailto:hritvik7654@gmail.com">
- <img align="left" alt="Gmail" width="130" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/gmail.png" />
-</a>
-<a href="https://linkedin.com/in/hritvik-gupta-8469611a3">
-  <img align="left" alt="Linkedin" width="150" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/linkedin.png" /> 
-<a href="https://scholar.google.com/citations?hl=en&user=ShxBp2MAAAAJ&view_op=list_works&gmla=AJsN-F4736wr3RpZuzL3k6NAHNI7S3YJ_HdddA-jKQBRaXEvfiiw-5u8UxlmfVoPGG6h_XLBCoY3NPeSXF_0hIKm5zDXfRe0PAUOoCNlhn7HyhH8GDPy8psm">
- <img align="left" alt="Linkedin" width="100" height="100" src="https://user-images.githubusercontent.com/60143996/211176246-af19d68d-0dbe-483a-9109-29a533a4d455.png" /> 
-</a>
-
-</p>
 </br>
 </br>
 </br>
@@ -87,7 +75,19 @@
 3. Conveying valuable insights and detailed information through engaging and well-researched [blogs](https://hritvikgupta.netlify.app/#blogs).
 
 ## Contact Me 📫:
-You can reach me at [hritvik7654@gmail.com](mailto:hritvik7654@gmail.com) or visit my [website](https://hritvikgupta.netlify.app).
+visit my [website](https://hritvikgupta.netlify.app).
+## Connect with me:
+<p align="left">
+<a href="mailto:hritvik7654@gmail.com">
+ <img align="left" alt="Gmail" width="130" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/gmail.png" />
+</a>
+<a href="https://linkedin.com/in/hritvik-gupta-8469611a3">
+  <img align="left" alt="Linkedin" width="150" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/linkedin.png" /> 
+<a href="https://scholar.google.com/citations?hl=en&user=ShxBp2MAAAAJ&view_op=list_works&gmla=AJsN-F4736wr3RpZuzL3k6NAHNI7S3YJ_HdddA-jKQBRaXEvfiiw-5u8UxlmfVoPGG6h_XLBCoY3NPeSXF_0hIKm5zDXfRe0PAUOoCNlhn7HyhH8GDPy8psm">
+ <img align="left" alt="Linkedin" width="100" height="100" src="https://user-images.githubusercontent.com/60143996/211176246-af19d68d-0dbe-483a-9109-29a533a4d455.png" /> 
+</a>
+
+</p>
 
 ## Fun Fact 😄:
 You only need Stack Overflow to be a software developer!
