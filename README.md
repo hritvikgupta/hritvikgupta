@@ -52,8 +52,7 @@
 <br />
 <br />
 <br />
-<br />
-<br />
+
 ## Projects:
 
 1. **[Note Taking App](https://github.com/hritvikgupta/Note-Taking-App)**: Developed an Android app that allows users to create, edit, and manage notes with added features of tagging, priority, and search function, using Kotlin, MVVM architecture, Room for local storage, and Material Design for UI/UX.
