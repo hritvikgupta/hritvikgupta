@@ -22,10 +22,10 @@ An adept Master's graduate in Computer Engineering from the University of Califo
 </br>
 
 ## Current Focus
-- 🔭 I’m currently working on **Notetaking Application**
-- 🌱 I’m currently learning **React.js, TypeScript, MongoDB**
+- 🔭 I’m currently working on BootStrap Startup **Advisor Application**
+- 🌱 I’m currently learning **Next.js and PostgreSQL**
 - 👯 I’m looking to collaborate on **Open Source Projects**
-- 🤝 I’m looking for help with **React.js, TypeScript**
+- 🤝 I’m available to help with **React.js, TypeScript**
 - 💬 Ask me about **React.js, Redux, Node.js, Express.js**
 - 📫 How to reach me: **hritvik7654@gmail.com**
 - 📄 You can check my [Resume here](https://drive.google.com/file/d/1u8Ie3a5n6IaR3K2b1v4rHSy1dWZicxUT/view?usp=sharing)
