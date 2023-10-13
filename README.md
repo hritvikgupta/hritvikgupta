@@ -8,7 +8,8 @@
 </br>
 
 ## Who am I?
-As a forward-thinking Master's graduate in Computer Engineering with global educational exposure, I chose to pursue an advanced degree immediately after my Bachelor's to deepen my technical knowledge and practice. My proficiency spans various programming languages and technologies, and I have demonstrated the ability to deliver efficient web and Android solutions, including open-source contributions. Driven by curiosity, I've delved into research on Natural Language Processing and human cognition. Combining resilience, innovative thinking, and an insatiable desire to learn, I am prepared to positively impact and push the tech boundaries in any team.
+
+An adept Master's graduate in Computer Engineering from the University of California, Riverside, I have cultivated a diverse skill set through rigorous academic coursework and hands-on projects. Specializing in full stack web development with aquiring skill set like React.js, Node.js, Tailwind and MongoDB, I've contributed to open-source projects and also explored the intricate world of Natural Language Processing (published 3 publications in IEEE Xplore). With a blend of innovative thinking and an intrinsic drive to push technological boundaries, I am poised to contribute effectively to dynamic teams.
 
 
 </br>
