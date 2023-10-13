@@ -80,11 +80,11 @@ development lifecycle with Render infrastructure.Built a reliable REST API using
 
 2.**[E-Commerce Appication](https://shopping-ekart.netlify.app/)**: Improved product UI efficiency by 30% using React.js; deployed on Netlify, resulting in a 15% user engagement increase (Google Analytics). Integrated REST API using Redux, Node.js, and Postgres; to support concurrent users monitored via New Relic. Boosted CRUD response times by 20%, reducing request time through middleware optimization (Postman).
 
-3. **[Note Taking App](https://github.com/hritvikgupta/Note-Taking-App)**: Developed an Android app that allows users to create, edit, and manage notes with added features of tagging, priority, and search function, using Kotlin, MVVM architecture, Room for local storage, and Material Design for UI/UX.
+3.**[Note Taking App](https://github.com/hritvikgupta/Note-Taking-App)**: Developed an Android app that allows users to create, edit, and manage notes with added features of tagging, priority, and search function, using Kotlin, MVVM architecture, Room for local storage, and Material Design for UI/UX.
 
-4. **[Shoe E-commerce Store](https://github.com/hritvikgupta/Shoe-E-commerce-Store)**: Built a full-stack e-commerce store with features like user registration, adding to cart, and payment gateway using React, Node.js, Express.js, and MongoDB.
+4.**[Shoe E-commerce Store](https://github.com/hritvikgupta/Shoe-E-commerce-Store)**: Built a full-stack e-commerce store with features like user registration, adding to cart, and payment gateway using React, Node.js, Express.js, and MongoDB.
 
-5. **[To-Do-List-AppHere's the final part](https://github.com/hritvikgupta/To-Do-List-App)**: Created a task management app by utilizing Kotlin, HILT, and Room within an MVC framework to build an application with sharing, reminders, attachments, social logins (Google/Facebook), and local storage. Published on Google Play.
+5.**[To-Do-List-AppHere's the final part](https://github.com/hritvikgupta/To-Do-List-App)**: Created a task management app by utilizing Kotlin, HILT, and Room within an MVC framework to build an application with sharing, reminders, attachments, social logins (Google/Facebook), and local storage. Published on Google Play.
 
 ## Open Source Contributions 👨‍💻:
 
@@ -93,7 +93,7 @@ attractions in various global locations. Integrated Google Maps, utilized RapidA
 
 2.**[Shoe-ecom-store](https://github.com/hritvikgupta/Shoe-ecom-store)**: Implemented net banking options in the payment portal of an e-commerce shoe store using React and TypeScript. This addition enhanced customer payment flexibility, allowing UPI Transactions.
 
-4. **[React To-do App](https://github.com/hritvikgupta/React-To-do-App)**: Worked on a code base of a user-friendly to-do list application integrating Firebase Authentication for secure user login using Redux and Framer Motion.
+3.**[React To-do App](https://github.com/hritvikgupta/React-To-do-App)**: Worked on a code base of a user-friendly to-do list application integrating Firebase Authentication for secure user login using Redux and Framer Motion.
 
 ## Extra-curricular Activities 🎯:
 
