@@ -75,9 +75,9 @@ You only need Stack Overflow to be a software developer!
 
 ## Projects:
 
-1.*[Dall-E Open AI Text-To-Image Generation Appication(https://github.com/hritvikgupta/dalle_clone)**:• Developed a OpenAI product Dall-e using Tailwind CSS; achieved ¡2s load time on Netlify deployment. Used ReactJS with Vite environments to design application and achieve 90% uptime, ensuring a seamless software
+1.**[Dall-E Open AI Text-To-Image Generation Appication(https://github.com/hritvikgupta/dalle_clone)**: Developed a OpenAI product Dall-e using Tailwind CSS; achieved ¡2s load time on Netlify deployment. Used ReactJS with Vite environments to design application and achieve 90% uptime, ensuring a seamless software
 development lifecycle with Render infrastructure.Built a reliable REST API using Node.js and Express.js for efficient data management using MongoDB. 
-2.
+2.**[E-Commerce Appication(https://shopping-ekart.netlify.app/)**: Improved product UI efficiency by 30% using React.js; deployed on Netlify, resulting in a 15% user engagement increase (Google Analytics). Integrated REST API using Redux, Node.js, and Postgres; to support concurrent users monitored via New Relic. Boosted CRUD response times by 20%, reducing request time through middleware optimization (Postman).
 3. **[Note Taking App](https://github.com/hritvikgupta/Note-Taking-App)**: Developed an Android app that allows users to create, edit, and manage notes with added features of tagging, priority, and search function, using Kotlin, MVVM architecture, Room for local storage, and Material Design for UI/UX.
 
 4. **[Shoe E-commerce Store](https://github.com/hritvikgupta/Shoe-E-commerce-Store)**: Built a full-stack e-commerce store with features like user registration, adding to cart, and payment gateway using React, Node.js, Express.js, and MongoDB.
