@@ -75,11 +75,14 @@ You only need Stack Overflow to be a software developer!
 
 ## Projects:
 
-1. **[Note Taking App](https://github.com/hritvikgupta/Note-Taking-App)**: Developed an Android app that allows users to create, edit, and manage notes with added features of tagging, priority, and search function, using Kotlin, MVVM architecture, Room for local storage, and Material Design for UI/UX.
+1.*[Dall-E Open AI Text-To-Image Generation Appication(https://github.com/hritvikgupta/dalle_clone)**:• Developed a OpenAI product Dall-e using Tailwind CSS; achieved ¡2s load time on Netlify deployment. Used ReactJS with Vite environments to design application and achieve 90% uptime, ensuring a seamless software
+development lifecycle with Render infrastructure.Built a reliable REST API using Node.js and Express.js for efficient data management using MongoDB. 
+2.
+3. **[Note Taking App](https://github.com/hritvikgupta/Note-Taking-App)**: Developed an Android app that allows users to create, edit, and manage notes with added features of tagging, priority, and search function, using Kotlin, MVVM architecture, Room for local storage, and Material Design for UI/UX.
 
-2. **[Shoe E-commerce Store](https://github.com/hritvikgupta/Shoe-E-commerce-Store)**: Built a full-stack e-commerce store with features like user registration, adding to cart, and payment gateway using React, Node.js, Express.js, and MongoDB.
+4. **[Shoe E-commerce Store](https://github.com/hritvikgupta/Shoe-E-commerce-Store)**: Built a full-stack e-commerce store with features like user registration, adding to cart, and payment gateway using React, Node.js, Express.js, and MongoDB.
 
-3. **[To-Do-List-AppHere's the final part](https://github.com/hritvikgupta/To-Do-List-App)**: Created a task management app by utilizing Kotlin, HILT, and Room within an MVC framework to build an application with sharing, reminders, attachments, social logins (Google/Facebook), and local storage. Published on Google Play.
+5. **[To-Do-List-AppHere's the final part](https://github.com/hritvikgupta/To-Do-List-App)**: Created a task management app by utilizing Kotlin, HILT, and Room within an MVC framework to build an application with sharing, reminders, attachments, social logins (Google/Facebook), and local storage. Published on Google Play.
 
 ## Open Source Contributions 👨‍💻:
 
