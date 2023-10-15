@@ -1,25 +1,34 @@
+## Portfolio  📫:
+visit my [website](https://hritvikgupta.netlify.app).
+## Connect with me:
 <p align="left">
-  <img src="https://komarev.com/ghpvc/?username=hritvikgupta&label=Profile%20views&color=0e75b6&style=flat" alt="hritvikgupta profile views" />
+<a href="mailto:hritvik7654@gmail.com">
+ <img align="left" alt="Gmail" width="130" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/gmail.png" />
+</a>
+<a href="https://linkedin.com/in/hritvik-gupta-8469611a3">
+  <img align="left" alt="Linkedin" width="150" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/linkedin.png" /> 
+<a href="https://scholar.google.com/citations?hl=en&user=ShxBp2MAAAAJ&view_op=list_works&gmla=AJsN-F4736wr3RpZuzL3k6NAHNI7S3YJ_HdddA-jKQBRaXEvfiiw-5u8UxlmfVoPGG6h_XLBCoY3NPeSXF_0hIKm5zDXfRe0PAUOoCNlhn7HyhH8GDPy8psm">
+ <img align="left" alt="Linkedin" width="100" height="100" src="https://user-images.githubusercontent.com/60143996/211176246-af19d68d-0dbe-483a-9109-29a533a4d455.png" /> 
+</a>
+
 </p>
-<img width="560" alt="Screenshot 2022-03-07 at 7 21 59 PM" src= "https://github.com/hritvikgupta/hritvikgupta/blob/main/src_/5lto.gif">
-
-## Hi there 👋, my name is Hritvik
-
 </br>
+</br>
+</br>
+</br>
+## Hi there 👋, my name is Hritvik
 
 ## Who am I?
 
 An adept Master's graduate in Computer Engineering from the University of California, Riverside, I have cultivated a diverse skill set through rigorous academic coursework and hands-on projects. Specializing in full stack web development with aquiring skill set like React.js, Node.js, Tailwind and MongoDB, I've contributed to open-source projects and also explored the intricate world of Natural Language Processing (published 3 publications in IEEE Xplore). With a blend of innovative thinking and an intrinsic drive to push technological boundaries, I am poised to contribute effectively to dynamic teams.
 
 
-</br>
-
 ## Education
 - 🎓 I am pursuing my Master's in Computer Engineering from University Of California, Riverside : GPA 3.7 | expected graduation: December 2023. 
 
 - 🎓 I have finished my Bachelor of Technology in Computer Science and Engineering from GITS Udaipur, India : GPA 3.9 | graduated: May 2022.
 
-</br>
+
 
 ## Current Focus
 - 🔭 I’m currently working on BootStrap Startup **Advisor Application**
@@ -30,12 +39,11 @@ An adept Master's graduate in Computer Engineering from the University of Califo
 - 📫 How to reach me: **hritvik7654@gmail.com**
 - 📄 You can check my [Resume here](https://drive.google.com/file/d/1u8Ie3a5n6IaR3K2b1v4rHSy1dWZicxUT/view?usp=sharing)
   
-</br>
+
 
 ## Fun Fact 😄:
 You only need Stack Overflow to be a software developer!
 
-</br>
 
 ## Languages and Tools:
 <p align="left">
@@ -100,35 +108,4 @@ attractions in various global locations. Integrated Google Maps, utilized RapidA
 1. Published 3 research papers on Natural Language Processing and EEG in IEEE Journal [Google Scholar](https://scholar.google.com/citations?user=ShxBp2MAAAAJ&hl=en)
 2. Actively reviewing and debugging code in various GitHub repositories as an open-source contributor.
 3. Conveying valuable insights and detailed information through engaging and well-researched [blogs](https://hritvikgupta.netlify.app/#blogs).
-
-## Portfolio  📫:
-visit my [website](https://hritvikgupta.netlify.app).
-## Connect with me:
-<p align="left">
-<a href="mailto:hritvik7654@gmail.com">
- <img align="left" alt="Gmail" width="130" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/gmail.png" />
-</a>
-<a href="https://linkedin.com/in/hritvik-gupta-8469611a3">
-  <img align="left" alt="Linkedin" width="150" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/linkedin.png" /> 
-<a href="https://scholar.google.com/citations?hl=en&user=ShxBp2MAAAAJ&view_op=list_works&gmla=AJsN-F4736wr3RpZuzL3k6NAHNI7S3YJ_HdddA-jKQBRaXEvfiiw-5u8UxlmfVoPGG6h_XLBCoY3NPeSXF_0hIKm5zDXfRe0PAUOoCNlhn7HyhH8GDPy8psm">
- <img align="left" alt="Linkedin" width="100" height="100" src="https://user-images.githubusercontent.com/60143996/211176246-af19d68d-0dbe-483a-9109-29a533a4d455.png" /> 
-</a>
-
-</p>
-</br>
-</br>
-</br>
-</br>
-
-# Stats :
-</br>
-</br>
-<div align ="center">
- <p>
-  <img  src="https://github-readme-stats.vercel.app/api/top-langs?username=hritvikgupta&show_icons=true&locale=en&layout=compact&theme=blue-green" alt="hritvikgupta" /></p>
-</br>
-<img alt= "stats card" height="200px" width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=hritvikgupta&theme=blue-green">
-</br>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hritvikgupta&show_icons=true&theme=blue-green" alt="hritvikgupta" /></p>
-</div>
 
