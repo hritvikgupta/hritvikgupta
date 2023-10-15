@@ -1,21 +1,4 @@
-## Portfolio  📫:
-visit my [website](https://hritvikgupta.netlify.app).
-## Connect with me:
-<p align="left">
-<a href="mailto:hritvik7654@gmail.com">
- <img align="left" alt="Gmail" width="130" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/gmail.png" />
-</a>
-<a href="https://linkedin.com/in/hritvik-gupta-8469611a3">
-  <img align="left" alt="Linkedin" width="150" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/linkedin.png" /> 
-<a href="https://scholar.google.com/citations?hl=en&user=ShxBp2MAAAAJ&view_op=list_works&gmla=AJsN-F4736wr3RpZuzL3k6NAHNI7S3YJ_HdddA-jKQBRaXEvfiiw-5u8UxlmfVoPGG6h_XLBCoY3NPeSXF_0hIKm5zDXfRe0PAUOoCNlhn7HyhH8GDPy8psm">
- <img align="left" alt="Linkedin" width="100" height="100" src="https://user-images.githubusercontent.com/60143996/211176246-af19d68d-0dbe-483a-9109-29a533a4d455.png" /> 
-</a>
 
-</p>
-</br>
-</br>
-</br>
-</br>
 ## Hi there 👋, my name is Hritvik
 
 ## Who am I?
@@ -109,3 +92,21 @@ attractions in various global locations. Integrated Google Maps, utilized RapidA
 2. Actively reviewing and debugging code in various GitHub repositories as an open-source contributor.
 3. Conveying valuable insights and detailed information through engaging and well-researched [blogs](https://hritvikgupta.netlify.app/#blogs).
 
+
+## Portfolio  📫:
+visit my [website](https://hritvikgupta.netlify.app).
+## Connect with me:
+<p align="left">
+<a href="mailto:hritvik7654@gmail.com">
+ <img align="left" alt="Gmail" width="130" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/gmail.png" />
+</a>
+<a href="https://linkedin.com/in/hritvik-gupta-8469611a3">
+  <img align="left" alt="Linkedin" width="150" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/linkedin.png" /> 
+<a href="https://scholar.google.com/citations?hl=en&user=ShxBp2MAAAAJ&view_op=list_works&gmla=AJsN-F4736wr3RpZuzL3k6NAHNI7S3YJ_HdddA-jKQBRaXEvfiiw-5u8UxlmfVoPGG6h_XLBCoY3NPeSXF_0hIKm5zDXfRe0PAUOoCNlhn7HyhH8GDPy8psm">
+ <img align="left" alt="Linkedin" width="100" height="100" src="https://user-images.githubusercontent.com/60143996/211176246-af19d68d-0dbe-483a-9109-29a533a4d455.png" /> 
+</a>
+
+</p>
+</br>
+</br>
+</br>
