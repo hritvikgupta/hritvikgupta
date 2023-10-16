@@ -110,3 +110,15 @@ visit my [website](https://hritvikgupta.netlify.app).
 </br>
 </br>
 </br>
+
+# Stats :
+</br>
+</br>
+<div align ="center">
+ <p>
+  <img  src="https://github-readme-stats.vercel.app/api/top-langs?username=hritvikgupta&show_icons=true&locale=en&layout=compact&theme=blue-green" alt="hritvikgupta" /></p>
+</br>
+<img alt= "stats card" height="200px" width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=hritvikgupta&theme=blue-green">
+</br>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hritvikgupta&show_icons=true&theme=blue-green" alt="hritvikgupta" /></p>
+</div>
