@@ -7,8 +7,8 @@
 
 ## Who am I?
 
-. **Name**: Hritvik Gupta
-**Education**: Pursuing a Master's in Computer Engineering at the University of California, Riverside, graduating December 2023.
+** **Name**: Hritvik Gupta
+** **Education**: Pursuing a Master's in Computer Engineering at the University of California, Riverside, graduating December 2023.
 **Programming Skills**: Proficient in Python, JavaScript, Java, and C++.
 **Machine Learning Expertise**: Strong proficiency in ML frameworks like TensorFlow and PyTorch; knowledgeable in ML libraries such as scikit-learn and NLTK.
 **Research Experience**: Conducted a year-long research project at IIT Roorkee, India, focusing on the classification of brain signals under stress.
