@@ -7,8 +7,7 @@
 
 ## Who am I?
 
-An adept Master's graduate in Computer Engineering from the University of California, Riverside, I have cultivated a diverse skill set through rigorous academic coursework and hands-on projects. Specializing in full stack web development with aquiring skill set like React.js, Node.js, Tailwind and MongoDB, I've contributed to open-source projects and also explored the intricate world of Natural Language Processing (published 3 publications in IEEE Xplore). With a blend of innovative thinking and an intrinsic drive to push technological boundaries, I am poised to contribute effectively to dynamic teams.
-
+Hi, My name is Hritvik Gupta and currently pursuing masters in computer engineering from university of california, Riverside. And will be graduating by december 2023. To talk about my self, i first start of with my skills. My Skill set include various programming languages such as Python, Javascript, Java and C++. Moreover, i have a strong grip on various ML frameworks which include Tensorflow, Pytorch and other ML libraries such as scikit learn, nltk and more. My experiences include working on a year long research at IIT Roorkee india, where i worked upon human cognition which focuses on classfying the rest and active signals of frontal lobes depending upong the stress provided to it. This research lead me to write paper in IEEE Journal in collaboration with PhD peers. My project works include various Natural Language Processing and Deep neural projects in Text summarizations and generations. My recent project at University of california, Riverside which is of ensemble a neural network with the kernel method where try's to generate text summaries using T5 and LDA. This 3 months research led to write a paper on it. . The other paper publications and projects includes NLP and NLU papers in text summarization, which i publised in IEEE
 
 ## Education
 - 🎓 I am pursuing my Master's in Computer Engineering from University Of California, Riverside : GPA 3.7 | expected graduation: December 2023. 
@@ -18,11 +17,11 @@ An adept Master's graduate in Computer Engineering from the University of Califo
 
 
 ## Current Focus
-- 🔭 I’m currently working on BootStrap Startup **Advisor Application**
-- 🌱 I’m currently learning **Next.js and PostgreSQL**
-- 👯 I’m looking to collaborate on **Open Source Projects**
+- 🔭 I’m currently working on BootStrap Startup **AI Advisor Application**
+- 🌱 I’m currently learning **AZURE Next.js and PostgreSQL**
+- 👯 I’m looking to collaborate on **Open Source Projects in NLP and React**
 - 🤝 I’m available to help with **React.js, TypeScript**
-- 💬 Ask me about **React.js, Redux, Node.js, Express.js**
+- 💬 Ask me about **NLP Machine Learning Statistics React.js, Redux, Node.js, Express.js**
 - 📫 How to reach me: **hritvik7654@gmail.com**
 - 📄 You can check my [Resume here](https://drive.google.com/file/d/1u8Ie3a5n6IaR3K2b1v4rHSy1dWZicxUT/view?usp=sharing)
   
@@ -70,16 +69,22 @@ You only need Stack Overflow to be a software developer!
 
 ## Projects:
 
-1.**[Dall-E Open AI Text-To-Image Generation Appication](https://github.com/hritvikgupta/dalle_clone)**: Developed a OpenAI product Dall-e using Tailwind CSS; achieved ¡2s load time on Netlify deployment. Used ReactJS with Vite environments to design application and achieve 90% uptime, ensuring a seamless software
+1. **[[Hybrid Text Summarization Using LDA and T5](https://www.dropbox.com/scl/fi/d7c38xal8jbvuys156q02/NLP-Hybrid-Text-Summarization-pdf.pdf?rlkey=rkkisfob0rwqtx7qkb5eqa3c4&dl=0)**: Designed a sophisticated ensemble algorithm that merges LDA-based ranking with T5 transfer learning, resulting in a 15% improvement in average ROUGE scores for text summarization. Implemented attention mechanism with custom callbacks and SGD, boosting processing efficiency by 60%. Utilized LDA modeling and sentence weighting to further enhance the system’s computational performance. Technologies: NLP, BERT, LDA, T5, TF-IDF.
+
+2. **[Image Captioning](https://github.com/hritvikgupta/Image-captioning)**: Applied transfer learning with ResNet-50 and custom BiLSTM, boosting caption accuracy by 70% for 100K images. Enhanced image recognition accuracy by 85% using Adam optimizer with pyramid learning rate and cross-validation. Deployed BiLSTM attention model on optimized AWS data pipelines, achieving 15% faster training. Technologies: Keras, NLTK, ResNet-50, LSTM.
+
+3. **[Text Summarization Using Elmo Embedding](https://ieeexplore.ieee.org/abstract/document/9243610/)**: Developed an ensemble algorithm integrating unsupervised embeddings, enhancing analytical precision. Synergized ELmo embedding with supervised cosine similarity, improving summary quality by over 65%. Outperformed previous benchmarks with 8% and 6% hikes in ROUGE-1 and ROUGE-L scores, respectively. Technologies: Tensorflow, NLTK, Attention, LSTM.
+
+4.**[Dall-E Open AI Text-To-Image Generation Appication](https://github.com/hritvikgupta/dalle_clone)**: Developed a OpenAI product Dall-e using Tailwind CSS; achieved ¡2s load time on Netlify deployment. Used ReactJS with Vite environments to design application and achieve 90% uptime, ensuring a seamless software
 development lifecycle with Render infrastructure.Built a reliable REST API using Node.js and Express.js for efficient data management using MongoDB. 
 
-2.**[E-Commerce Appication](https://shopping-ekart.netlify.app/)**: Improved product UI efficiency by 30% using React.js; deployed on Netlify, resulting in a 15% user engagement increase (Google Analytics). Integrated REST API using Redux, Node.js, and Postgres; to support concurrent users monitored via New Relic. Boosted CRUD response times by 20%, reducing request time through middleware optimization (Postman).
+5.**[E-Commerce Appication](https://shopping-ekart.netlify.app/)**: Improved product UI efficiency by 30% using React.js; deployed on Netlify, resulting in a 15% user engagement increase (Google Analytics). Integrated REST API using Redux, Node.js, and Postgres; to support concurrent users monitored via New Relic. Boosted CRUD response times by 20%, reducing request time through middleware optimization (Postman).
 
-3.**[Note Taking App](https://github.com/hritvikgupta/Note-Taking-App)**: Developed an Android app that allows users to create, edit, and manage notes with added features of tagging, priority, and search function, using Kotlin, MVVM architecture, Room for local storage, and Material Design for UI/UX.
+6.**[Note Taking App](https://github.com/hritvikgupta/Note-Taking-App)**: Developed an Android app that allows users to create, edit, and manage notes with added features of tagging, priority, and search function, using Kotlin, MVVM architecture, Room for local storage, and Material Design for UI/UX.
 
-4.**[Shoe E-commerce Store](https://github.com/hritvikgupta/Shoe-E-commerce-Store)**: Built a full-stack e-commerce store with features like user registration, adding to cart, and payment gateway using React, Node.js, Express.js, and MongoDB.
+7.**[Shoe E-commerce Store](https://github.com/hritvikgupta/Shoe-E-commerce-Store)**: Built a full-stack e-commerce store with features like user registration, adding to cart, and payment gateway using React, Node.js, Express.js, and MongoDB.
 
-5.**[To-Do-List-AppHere's the final part](https://github.com/hritvikgupta/To-Do-List-App)**: Created a task management app by utilizing Kotlin, HILT, and Room within an MVC framework to build an application with sharing, reminders, attachments, social logins (Google/Facebook), and local storage. Published on Google Play.
+8.**[To-Do-List-AppHere's the final part](https://github.com/hritvikgupta/To-Do-List-App)**: Created a task management app by utilizing Kotlin, HILT, and Room within an MVC framework to build an application with sharing, reminders, attachments, social logins (Google/Facebook), and local storage. Published on Google Play.
 
 ## Open Source Contributions 👨‍💻:
 
