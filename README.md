@@ -7,8 +7,16 @@
 
 ## Who am I?
 
-Hi, My name is Hritvik Gupta and currently pursuing masters in computer engineering from university of california, Riverside. And will be graduating by december 2023. To talk about my self, i first start of with my skills. My Skill set include various programming languages such as Python, Javascript, Java and C++. Moreover, i have a strong grip on various ML frameworks which include Tensorflow, Pytorch and other ML libraries such as scikit learn, nltk and more. My experiences include working on a year long research at IIT Roorkee india, where i worked upon human cognition which focuses on classfying the rest and active signals of frontal lobes depending upong the stress provided to it. This research lead me to write paper in IEEE Journal in collaboration with PhD peers. My project works include various Natural Language Processing and Deep neural projects in Text summarizations and generations. My recent project at University of california, Riverside which is of ensemble a neural network with the kernel method where try's to generate text summaries using T5 and LDA. This 3 months research led to write a paper on it. . The other paper publications and projects includes NLP and NLU papers in text summarization, which i publised in IEEE
-
+**Name**: Hritvik Gupta
+**Education**: Pursuing a Master's in Computer Engineering at the University of California, Riverside, graduating December 2023.
+**Programming Skills**: Proficient in Python, JavaScript, Java, and C++.
+**Machine Learning Expertise**: Strong proficiency in ML frameworks like TensorFlow and PyTorch; knowledgeable in ML libraries such as scikit-learn and NLTK.
+**Research Experience**: Conducted a year-long research project at IIT Roorkee, India, focusing on the classification of brain signals under stress.
+**Publication**: Co-authored a paper in the IEEE Journal as part of the research at IIT Roorkee.
+**Project Highlights**:
+Specialized in Natural Language Processing and Deep Neural Networks.
+Recent project at UC Riverside on ensemble neural networks using T5 and LDA for text summarization, leading to a research paper.
+**Additional Publications**: Authored several papers in IEEE, primarily on NLP and NLU with a focus on text summarization.
 ## Education
 - 🎓 I am pursuing my Master's in Computer Engineering from University Of California, Riverside : GPA 3.7 | expected graduation: December 2023. 
 
