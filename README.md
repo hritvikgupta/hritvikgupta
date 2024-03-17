@@ -9,10 +9,12 @@
 
 * **Name**: Hritvik Gupta
 * **Programming Skills**: Proficient in Python, JavaScript, Java, and C++.
+* **Data Analyst**: Proficient in excel, Power Bi and Exploratory data analysis using python frameworks using Pandas numpy and matplot
 * **Machine Learning Expertise**: Strong proficiency in ML frameworks like TensorFlow and PyTorch; knowledgeable in ML libraries such as scikit-learn and NLTK.
 * **Research Experience**: Built social media chatbots, Conducted LLM research with Transformer algorithms, improving text coherence, achieving 30% enhanced accuracy at University of california, riverside and Conducted a year-long research project at IIT Roorkee, India, focusing on the classification of brain signals under stress.
 * **Publication**: Co-authored a paper in the IEEE Journal as part of the research at IIT Roorkee, 2 Other publications in NLP.
 * **Project Highlights**:
+  * Developed Interactive Dashboard for companies insightful data such as Sales, Customer retention and Risk analysis. 
   * Specialized in MLOps, Mlfow, AWS, GCP, Natural Language Processing and Deep Neural Networks.
   * Recent project at UC Riverside on ensemble neural networks using T5 and LDA for text summarization, leading to a research paper.
 * **Additional Publications**: Authored several papers in IEEE, primarily on NLP and NLU with a focus on text summarization.
@@ -24,7 +26,7 @@
 
 
 ## Current Focus
-- 🔭 I’m currently working on BootStrap Startup **Health TECH AI**
+- 🔭 I’m currently working on with Cognizant as a Co-op Data analayst. 
 - 🌱 I’m currently learning **Kubernetes, Yaml**
 - 👯 I’m looking to collaborate on **Open Source Projects in NLP and React**
 - 💬 Ask me about **NLP Machine Learning Statistics React.js, Redux, Node.js, Express.js**
