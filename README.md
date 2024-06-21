@@ -26,7 +26,7 @@
 
 
 ## Current Focus
-- 🔭 I’m currently working on with Cognizant as a Co-op Data analayst. 
+- 🔭 I’m currently working on with Cognizant as a Data analayst. 
 - 🌱 I’m currently learning **Kubernetes, Yaml**
 - 👯 I’m looking to collaborate on **Open Source Projects in NLP and React**
 - 💬 Ask me about **NLP Machine Learning Statistics React.js, Redux, Node.js, Express.js**
