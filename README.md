@@ -1,144 +1,163 @@
-## Hi there 👋, my name is Hritvik
+<h1 align="center">👋 Hi, I'm <span style="color:#4BA3F2;">Hritvik Gupta</span></h1>
+<h3 align="center">AI Engineer • LLM Systems • Full-Stack Builder • Founder of AI Tools</h3>
 
-## Currenlty Using Following tools for the development apart from my skills:
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white) ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?style=for-the-badge&logo=Jupyter&logoColor=white) ![NLP](https://img.shields.io/badge/NLP-000000?style=for-the-badge&logo=nlp&logoColor=white) ![NLTK](https://img.shields.io/badge/NLTK-306998?style=for-the-badge&logo=nltk&logoColor=white) ![scikit_learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=Java&logoColor=white) ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white) ![Springboot](https://img.shields.io/badge/Spring_Boot-754111?style=for-the-badge&logo=spring-boot) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=sql&logoColor=white) ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ-521369.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Mysql](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![VS CODE](https://img.shields.io/badge/VS_Code-A94FC9?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF2900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-D2691E?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-
-
-## Who am I?
-
-* **Name**: Hritvik Gupta
-* **Programming Skills**: Proficient in Python, JavaScript, Java, and C++.
-* **Data Analyst**: Proficient in excel, Power Bi and Exploratory data analysis using python frameworks using Pandas numpy and matplot
-* **Machine Learning Expertise**: Strong proficiency in ML frameworks like TensorFlow and PyTorch; knowledgeable in ML libraries such as scikit-learn and NLTK.
-* **Research Experience**: Built social media chatbots, Conducted LLM research with Transformer algorithms, improving text coherence, achieving 30% enhanced accuracy at University of california, riverside and Conducted a year-long research project at IIT Roorkee, India, focusing on the classification of brain signals under stress.
-* **Publication**: Co-authored a paper in the IEEE Journal as part of the research at IIT Roorkee, 2 Other publications in NLP.
-* **Project Highlights**:
-  * Developed Interactive Dashboard for companies insightful data such as Sales, Customer retention and Risk analysis. 
-  * Specialized in MLOps, Mlfow, AWS, GCP, Natural Language Processing and Deep Neural Networks.
-  * Recent project at UC Riverside on ensemble neural networks using T5 and LDA for text summarization, leading to a research paper.
-* **Additional Publications**: Authored several papers in IEEE, primarily on NLP and NLU with a focus on text summarization.
-## Education
-- 🎓 I have finished my master's in Computer Engineering from University Of California, Riverside : GPA 3.7 | graduated: December 2023. 
-
-- 🎓 I have finished my Bachelor of Technology in Computer Science and Engineering from GITS Udaipur, India : GPA 3.9 | graduated: May 2022.
-
-
-
-## Current Focus
-- 🔭 I’m currently working on with Cognizant as a Data analayst. 
-- 🌱 I’m currently learning **Kubernetes, Yaml**
-- 👯 I’m looking to collaborate on **Open Source Projects in NLP and React**
-- 💬 Ask me about **NLP Machine Learning Statistics React.js, Redux, Node.js, Express.js**
-- 📫 How to reach me: **hritvik7654@gmail.com**
-- 📄 You can check my [Resume here](https://raw.githubusercontent.com/hritvikgupta/Hritvik-LLM-Repo/main/hritvikresumefeb2024.pdf)
-  
-
-
-## Fun Fact 😄:
-You only need Stack Overflow to be a software developer!
-
-
-## Languages and Tools:
-<p align="left">
-<img align="left" alt="JavaScript" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
-<img align="left" alt="React.js" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
-<img align="left" alt="Redux" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" />
-<img align="left" alt="Tensorflow" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" />
-<img align="left" alt="Jest" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" />
-<img align="left" alt="Jetpack Compose" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jetbrains/jetbrains-original.svg" />
-<img align="left" alt="Room" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" />
-<img align="left" alt="Java" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" />
-<img align="left" alt="Kotlin" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg" />
-<img align="left" alt="Python" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
-</p>
-<br />
-<br />
-<br />
-
-<p>
-<img align="left" alt="Android Studio" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" />
-<img align="left" alt="Tensorflow" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" />
-<img align="left" alt="React Native" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
-<img align="left" alt="Ionic" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ionic/ionic-original.svg" />
-<img align="left" alt="Xamarin" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xamarin/xamarin-original.svg" />
-<img align="left" alt="Flutter" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" />
-<img align="left" alt="Swift" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" />
-
-<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" />
-<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" />
-<img align="left" alt="IntelliJ IDEA" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/intellij/intellij-original.svg" />
-<img align="left" alt="Xcode" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xcode/xcode-original.svg" />
-<img align="left" alt="Jupyter" width="26px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original-wordmark.svg" />
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=4BA3F2&size=22&center=true&vCenter=true&width=650&lines=AI+Engineer+%40+Penn+Medicine;LLM+%7C+RAG+Systems+Designer;Founder+of+MotionNote+%2C+StoryBorrd+%2C+Awaken;I+Build+AI+Products+Used+by+100K%2B+Users;Turning+Ideas+into+Production+AI+Systems+🚀" />
 </p>
 
-<br />
-<br />
+---
 
-## Projects:
-1.**[End-to-End Machine Learning Application on AWS and Digital Ocean](http://64.23.186.128/)**: Designed pneumonia detection model with ResNet and computer vision, achieving 95% accuracy on given dataset. Employed AWS SageMaker, S3, Lambda, and API Gateway for streamlined ML operations and model deployment. Developed Next.js web app with Node.js, Express, MongoDB on Digital Ocean, integrated AWS endpoints.
+# 🌟 About Me
 
-2.**[Personalised GPT: Streamlit-Based Application](https://hritvikllm.streamlit.app/)** Developed Streamlit app with LLMs and vector database for resume QA, achieving 70% better query efficiency. Integrated advanced ML techniques like vector databases and LLM fine-tuning with HuggingFace, Langchain. Deployed Docker container on AWS Lambda for application scalability, achieving a 25% faster deployment times.
+I'm an **AI Engineer** specializing in **LLMs, RAG systems, vector search, multimodal reasoning, and full-stack AI product development**.
 
-3.**[Flu Trend Analysis via PySpark and GeoPandas](https://californiaflupred.onrender.com/)** Built a user-friendly web interface powered by Tableau, enabling intuitive exploration and analysis of flu trends. Scaled flu trend analysis by 80% data granularity with PySpark GeoPandas, pre-processed on Apache Hadoop. Leveraged AWS S3-stored flu data to train an ARIMA model for California, generating informative heatmaps.
+I’ve built **production-grade AI platforms** used by **100,000+ patients and users**, engineered large-scale NLP pipelines, and developed multiple AI SaaS products from scratch.
 
-4.**[Image Captioning](https://github.com/hritvikgupta/Image-captioning)**: Applied transfer learning with ResNet-50 and custom BiLSTM, boosting caption accuracy by 70% for 100K images. Enhanced image recognition accuracy by 85% using Adam optimizer with pyramid learning rate and cross-validation. Deployed BiLSTM attention model on optimized AWS data pipelines, achieving 15% faster training. Technologies: Keras, NLTK, ResNet-50, LSTM.
+---
 
-5.**[Text Summarization Using Elmo Embedding](https://ieeexplore.ieee.org/abstract/document/9243610/)**: Developed an ensemble algorithm integrating unsupervised embeddings, enhancing analytical precision. Synergized ELmo embedding with supervised cosine similarity, improving summary quality by over 65%. Outperformed previous benchmarks with 8% and 6% hikes in ROUGE-1 and ROUGE-L scores, respectively. Technologies: Tensorflow, NLTK, Attention, LSTM.
+# 🧠 Experience
 
-6.**[Dall-E Open AI Text-To-Image Generation Appication](https://github.com/hritvikgupta/dalle_clone)**: Developed a OpenAI product Dall-e using Tailwind CSS; achieved ¡2s load time on Netlify deployment. Used ReactJS with Vite environments to design application and achieve 90% uptime, ensuring a seamless software
-development lifecycle with Render infrastructure.Built a reliable REST API using Node.js and Express.js for efficient data management using MongoDB. 
+## **AI Engineer — Penn Medicine** (2024–Present)  
+Built clinical-grade AI systems powering patient-facing platforms. :contentReference[oaicite:1]{index=1}
 
-7.**[E-Commerce Appication](https://shopping-ekart.netlify.app/)**: Improved product UI efficiency by 30% using React.js; deployed on Netlify, resulting in a 15% user engagement increase (Google Analytics). Integrated REST API using Redux, Node.js, and Postgres; to support concurrent users monitored via New Relic. Boosted CRUD response times by 20%, reducing request time through middleware optimization (Postman).
+- Designed a **multilingual Voice + Chat AI system** for Perception Care, serving **100K+ West Coast patients**  
+  → Built using **speech → RAG → LLM pipeline** with *LlamaIndex, FAISS, LangChain, FastAPI, Docker*
+- Engineered vector search + retrieval workflows  
+  → **28% faster responses**, **22% better clinical-text retrieval accuracy**
+- Enhanced PLATLAS (genomics platform) with  
+  → ML-based variant ranking  
+  → Phenotype similarity scoring  
+  → LLM-guided GWAS/EXWAS analysis
+- Automated **27M-SNP Nextflow pipelines**
+- Built PySpark + Delta Lake pipelines standardizing **30+ clinical datasets into OMOP**  
+  → Enabled real-time cohort building & disease trend dashboards
 
-8.**[Note Taking App](https://github.com/hritvikgupta/Note-Taking-App)**: Developed an Android app that allows users to create, edit, and manage notes with added features of tagging, priority, and search function, using Kotlin, MVVM architecture, Room for local storage, and Material Design for UI/UX.
+---
 
-9.**[Shoe E-commerce Store](https://github.com/hritvikgupta/Shoe-E-commerce-Store)**: Built a full-stack e-commerce store with features like user registration, adding to cart, and payment gateway using React, Node.js, Express.js, and MongoDB.
+## **Graduate Researcher (NLP) — University of California, Riverside** (2022–2023) :contentReference[oaicite:2]{index=2}
 
-10.**[To-Do-List-AppHere's the final part](https://github.com/hritvikgupta/To-Do-List-App)**: Created a task management app by utilizing Kotlin, HILT, and Room within an MVC framework to build an application with sharing, reminders, attachments, social logins (Google/Facebook), and local storage. Published on Google Play.
+- Designed **NLP pipelines** for **10M+ multilingual scientific documents**
+- Improved tokenization + embedding speed by **40%**
+- Optimized LlamaIndex + LangChain RAG flows  
+  → **22% improvement in scientific text retrieval**
 
-## Open Source Contributions 👨‍💻:
+---
 
-1.**[Travel](https://travellocate.netlify.app/)**: Developed a responsive Maps web app with map rendering functionality using React and Bootstrap to find live
-attractions in various global locations. Integrated Google Maps, utilized RapidAPI with Axios for 40% faster API handling, enhancing location services.
+## **Data Analyst — Cognizant** (2021–2022) :contentReference[oaicite:3]{index=3}
 
-2.**[Shoe-ecom-store](https://github.com/hritvikgupta/Shoe-ecom-store)**: Implemented net banking options in the payment portal of an e-commerce shoe store using React and TypeScript. This addition enhanced customer payment flexibility, allowing UPI Transactions.
+- Built Python + SQL pipelines for **20K+ HR & marketing records**  
+  → Improved data accuracy by **35%**
+- Developed predictive models for workforce analytics  
+  → Improved attrition + hiring forecasts for **5000+ employees**
 
-3.**[React To-do App](https://github.com/hritvikgupta/React-To-do-App)**: Worked on a code base of a user-friendly to-do list application integrating Firebase Authentication for secure user login using Redux and Framer Motion.
+---
 
-## Extra-curricular Activities 🎯:
+# 🚀 AI Products I Built (Founder)
 
-1. Published 3 research papers on Natural Language Processing and EEG in IEEE Journal [Google Scholar](https://scholar.google.com/citations?user=ShxBp2MAAAAJ&hl=en)
-2. Actively reviewing and debugging code in various GitHub repositories as an open-source contributor.
-3. Conveying valuable insights and detailed information through engaging and well-researched [blogs](https://hritvikgupta.netlify.app/#blogs).
+## **📝 MotionNote — AI Word Processor** (motionnote.com) :contentReference[oaicite:4]{index=4}  
+AI-powered note editor with:
 
+- Text → **Charts**
+- Text → **Videos**
+- RAG-backed smart sections
+- CopilotKit-driven frontend actions
+- FastAPI microservices + Supabase backend
 
-## Portfolio  📫:
-visit my [website](https://hritvikgupta.netlify.app).
-## Connect with me:
-<p align="left">
-<a href="mailto:hritvik7654@gmail.com">
- <img align="left" alt="Gmail" width="130" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/gmail.png" />
-</a>
-<a href="https://linkedin.com/in/hritvik-gupta-8469611a3">
-  <img align="left" alt="Linkedin" width="150" hight="100" src="https://github.com/Xx-Ashutosh-xX/Xx-Ashutosh-xX/blob/master/assets/icons/linkedin.png" /> 
-<a href="https://scholar.google.com/citations?hl=en&user=ShxBp2MAAAAJ&view_op=list_works&gmla=AJsN-F4736wr3RpZuzL3k6NAHNI7S3YJ_HdddA-jKQBRaXEvfiiw-5u8UxlmfVoPGG6h_XLBCoY3NPeSXF_0hIKm5zDXfRe0PAUOoCNlhn7HyhH8GDPy8psm">
- <img align="left" alt="Linkedin" width="100" height="100" src="https://user-images.githubusercontent.com/60143996/211176246-af19d68d-0dbe-483a-9109-29a533a4d455.png" /> 
-</a>
+---
 
+## **🧠 StoryBorrd — AI Research Canvas** (storyborrd.com) :contentReference[oaicite:5]{index=5}  
+Figma-style research environment with:
+
+- **200+ AI models** integrated  
+- Graph memory + node-based workflows  
+- Multimodal reasoning  
+- Document RAG + visualization tools
+
+---
+
+## **🎙️ Awaken — AI Avatar Studio** (awaken.sh) :contentReference[oaicite:6]{index=6}  
+Virtual studio for AI avatars:
+
+- Realistic voice-over
+- Slide sync
+- Multilingual video generation  
+- Automated invoicing + workflow engine
+
+---
+
+# 🧰 Skills
+
+### **AI & LLM Systems**
+LLMs, RAG, Retrieval Optimization, NLP, Vector Search, Prompt Routing
+
+### **Programming**
+Python, JavaScript, C++, SQL, Postgres, NoSQL
+
+### **ML Frameworks**
+PyTorch, TensorFlow, Scikit-learn, LangChain, LlamaIndex
+
+### **Backend + DevOps**
+FastAPI, Docker, Kubernetes, AWS (EC2, S3, Lambda), CI/CD
+
+### **Data Engineering**
+Spark, Delta Lake, ETL, Feature Engineering, Data Modeling
+
+---
+
+# 📚 Publications (IEEE + medRxiv)  
+:contentReference[oaicite:7]{index=7}
+
+- **Genome-Wide Pleiotropy Assessment Across 1000+ Traits** — medRxiv, 2025  
+- **Extractive Text Summarization Using ELMo** — I-SMAC 2020  
+- **Microstate EEG via RNN** — i-PACT 2021  
+- **LSA Topic Modelling + BERT Text Summarization** — AI Smart Systems 2021  
+
+---
+
+# 🎓 Education  
+**M.S. Computer Engineering — UC Riverside (2022–2023)**  
+**B.Tech Computer Science — GITS Udaipur (2018–2022)**  
+
+---
+
+# 🛠️ Tech Stack Badges
+
+### **AI | ML | Data**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-0A0A0A?style=for-the-badge)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-1A73E8?style=for-the-badge)
+
+### **Backend & DevOps**
+![FastAPI](https://img.shields.io/badge/FastAPI-109989?style=for-the-badge)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge)
+
+### **Frontend**
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge)
+
+---
+
+# 📊 GitHub Analytics
+
+<p align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=hritvikgupta&show_icons=true&theme=blue-green" />
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=hritvikgupta&theme=blue-green" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=hritvikgupta&layout=compact&theme=blue-green" />
 </p>
-</br>
-</br>
-</br>
 
-# Stats :
-</br>
-</br>
-<div align ="center">
- <p>
-  <img  src="https://github-readme-stats.vercel.app/api/top-langs?username=hritvikgupta&show_icons=true&locale=en&layout=compact&theme=blue-green" alt="hritvikgupta" /></p>
-</br>
-<img alt= "stats card" height="200px" width="400" src="https://github-readme-streak-stats.herokuapp.com/?user=hritvikgupta&theme=blue-green">
-</br>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hritvikgupta&show_icons=true&theme=blue-green" alt="hritvikgupta" /></p>
-</div>
+---
+
+# 🤝 Connect With Me  
+**Email:** hritvik2920@gmail.com  
+**LinkedIn:** linkedin.com/in/hritvik-gupta  
+**GitHub:** github.com/hritvikgupta  
+
+---
+
+# 😄 Fun Fact  
+> Every AI product starts with a small script… that slowly becomes your entire life 😄
+
