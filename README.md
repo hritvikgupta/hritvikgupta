@@ -116,7 +116,7 @@ MotionNote is the fastest and easiest way to create, edit, and enhance documents
 ---
 
 ## 📊 **MotionExcel — AI Data Analyst**
-<img src="./assets/motionexcel/dashboard_demo.png" width="100%" />
+<img src="./assets/motionexcel/dashboard.gif" width="100%" />
 
 **Automated Data Analysis & Visualization Dashboard**
 
