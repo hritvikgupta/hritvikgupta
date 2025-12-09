@@ -76,46 +76,62 @@ I’ve built:
 
 # 🧠 **Experience**
 
-## **AI Engineer — Penn Medicine (2024–Present)**  
-Built a **multilingual AI Voice Chat Agent** for Perception Care used by 100K+ West Coast patients.
-
-- Speech → RAG → LLM pipeline (LlamaIndex, FAISS, FastAPI)  
-- 28% faster response speed, 22% improved retrieval quality  
-- Genomics workflows:  
-  - ML-based variant ranking  
-  - Phenotype-similarity scoring  
-  - LLM-guided GWAS/EXWAS  
-- Automated 27M-SNP Nextflow pipelines  
-- PySpark + Delta Lake system to standardize **30+ clinical datasets → OMOP**
+## **AI Engineer — Penn Medicine** (Jul 2024 - Present)
+- Built an AI Voice & Chat system for Perception Care used by 100K+ West Coast patients; designed multilingual speech → RAG → LLM pipeline using LlamaIndex, FAISS, LangChain, FastAPI, and Docker.
+- Engineered data generation for speech and language models retrieval, vector search, and prompt-routing workflows, reducing response latency by ~28% and improving clinical-text retrieval accuracy by 22%.
+- Enhanced PLATLAS genomics platform with ML-based variant ranking and phenotype-similarity scoring; collaborated with Argonne National Lab and leveraged the Aurora supercomputer to run 27M-SNP Nextflow pipelines and added LLM-guided GWAS/EXWAS analysis.
+- Developed PySpark + Delta Lake pipelines standardizing 30+ clinical datasets into OMOP, enabling real-time cohort building and disease-trend dashboards.
 
 ---
 
-## **Graduate NLP Researcher — UC Riverside**  
-- NLP pipelines over **10M+ documents**  
-- Improved embedding & tokenization speed by **40%**  
-- Optimized RAG (LlamaIndex + LangChain) for **22% retrieval improvement**
+## **Graduate Researcher (NLP) — University of California, Riverside** (Oct 2022 – Dec 2023)
+- Built large-scale NLP pipelines (Python, Spark, SQL) for 10M+ multilingual research documents, improving tokenization + embedding generation speed by ~40% for downstream scientific analysis.
+- Optimized RAG systems using LlamaIndex + LangChain, raising scientific text retrieval accuracy by 22% and reducing context-window failures through improved chunking + prompt-routing.
 
 ---
 
-## **Data Analyst — Cognizant**  
-- Python + SQL ETL across 20K+ enterprise datasets  
-- 35% improvement in data accuracy  
-- Forecasting models used across 5000+ workforce records  
+## **Data Analyst — Cognizant** (Aug 2021 – Aug 2022)
+- Built Python + SQL ETL pipelines processing 20K+ HR, payroll, and marketing records across 50 operational datasets, improving data accuracy and reconciliation reliability by ~35%.
+- Developed Scikit-learn + SAS predictive models for attrition and hiring demand, improving workforce planning accuracy and staffing decisions for 5,000+ employees.  
 
 ---
 
 # 🚀 **AI Products (Founder)**
 
-## 📝 **MotionNote — AI Word Processor**  
-<img src="https://motionnote.com/logo.svg" width="120" />
+## 📝 **MotionNote — AI Word Processor**
+<img src="./Motionnote-AI-word-processor/motionnotedemo.png" width="100%" />
 
-Turns **text → charts → diagrams → videos** using AI.
+**The Open Source AI-Powered Word Processor**
 
-- Chart + diagram generator  
-- Video generation  
-- RAG-powered contextual memory  
-- Built with FastAPI + Supabase + CopilotKit  
-🔗 https://motionnote.com  
+MotionNote is the fastest and easiest way to create, edit, and enhance documents with AI assistance. It turns **text → charts → diagrams → videos** using AI.
+
+- **Chart + Diagram Generator**: Select text to convert to charts/graphs.
+- **Video Generation**: Convert notes into high-quality explainer videos.
+- **RAG-Powered Contextual Memory**: Chat with your documents.
+- **AI Copilot**: Intelligent writing companion.
+- **Tech Stack**: FastAPI + Supabase + CopilotKit + Vue 3.
+
+🔗 [motionnote.com](https://motionnote.com)
+
+---
+
+## 📊 **MotionExcel — AI Data Analyst**
+<img src="./motionexcel/images/excelbg.png" width="100%" />
+
+**Automated Data Analysis & Visualization Dashboard**
+
+MotionExcel transforms raw data into actionable insights using AI-driven SQL generation and Python analysis.
+
+- **Text-to-SQL**: Query your database using natural language.
+- **Automated Dashboards**: Instantly generate visual dashboards from your data.
+- **Python Data Analysis**: Run complex Python analysis scripts on your spreadsheet data.
+- **Pivot Tables & Charts**: Create pivot tables and charts with a single click.
+
+### 🎥 **Demos**
+- [📊 Dashboard Generation](./motionexcel/videos/dashboard%20(1).mp4)
+- [🐍 Python Data Analysis](./motionexcel/videos/pythontest.mp4)
+- [🗄️ Text to SQL](./motionexcel/videos/sql.mp4)
+- [📈 Smart Pivot Tables](./motionexcel/videos/pivot%20(1).mp4)
 
 ---
 
@@ -154,9 +170,15 @@ Lifelike AI avatar video generation.
 
 ---
 
+# 🏆 **Awards**
+
+- **Health-Tech Innovation Accelerator Award – Penn Health-Tech (2025)**, CIRCA Voice-AI For General Healthcare Services to patients
+
+---
+
 # 🎓 **Education**
 
-- **M.S. Computer Engineering** — UC Riverside  
+- **Masters In Computer Engineering** — University of California - Riverside (Sep 2022 – Dec 2023)
 - **B.Tech Computer Science** — GITS Udaipur  
 
 ---
