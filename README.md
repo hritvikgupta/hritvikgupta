@@ -99,7 +99,7 @@ I’ve built:
 # 🚀 **AI Products (Founder)**
 
 ## 📝 **MotionNote — AI Word Processor**
-<img src="./Motionnote-AI-word-processor/motionnotedemo.png" width="100%" />
+<img src="./assets/motionnote/motionnotedemo.png" width="100%" />
 
 **The Open Source AI-Powered Word Processor**
 
@@ -116,7 +116,7 @@ MotionNote is the fastest and easiest way to create, edit, and enhance documents
 ---
 
 ## 📊 **MotionExcel — AI Data Analyst**
-<img src="./motionexcel/images/excelbg.png" width="100%" />
+<img src="./assets/motionexcel/dashboard_demo.png" width="100%" />
 
 **Automated Data Analysis & Visualization Dashboard**
 
