@@ -186,10 +186,16 @@ Lifelike AI avatar video generation.
 # 📊 **GitHub Analytics**
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hritvikgupta&show_icons=true&theme=tokyonight" height="170" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hritvikgupta&theme=tokyonight" height="170" />
+  <!-- GitHub Stats -->
+  <img src="https://github-readme-stats.vercel.app/api?username=hritvikgupta&show_icons=true&theme=tokyonight" height="170" alt="GitHub Stats" />
+  
+  <!-- GitHub Streak (Fixed URL) -->
+  <img src="https://streak-stats.demolab.com?user=hritvikgupta&theme=tokyonight" height="170" alt="GitHub Streak" />
+  
   <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=hritvikgupta&layout=compact&theme=tokyonight" height="150" />
+  
+  <!-- Top Languages -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=hritvikgupta&layout=compact&theme=tokyonight" height="150" alt="Top Languages" />
 </p>
 
 ---
