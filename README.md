@@ -1,215 +1,61 @@
-<h1 align="center">👋 Hi, I'm <span style="color:#4BA3F2;">Hritvik Gupta</span></h1>
-<h3 align="center">AI Engineer • LLM Systems • RAG Architect • Full-Stack AI Builder • Founder of MotionNote · StoryBorrd · Awaken</h3>
+# Howdy! 👋
+
+I'm **Hritvik Gupta** — an AI engineer building LLM agents that do real work. At **[Penn Medicine (Verma Lab)](https://github.com/Verma-Lab)** I build **[CIRCA](https://github.com/Verma-Lab/CIRCA)**, a clinician-designed AI care companion that texts with pregnancy patients — triage against clinical protocols, scheduled follow-ups, care-team escalation, longitudinal memory — and **[CARE-Bench](https://github.com/Verma-Lab/Care-Bench)**, a benchmark for evaluating patient-care AI agents. I also work on **[PLATLAS](https://github.com/Verma-Lab/platlas)**, a multi-ancestry GWAS atlas spanning six biobanks.
+
+Outside the lab I founded **[MotionNote](https://motionnote.com)**, **[StoryBorrd](https://storyborrd.com)**, and **[Awaken](https://awaken.sh)**, and I ship open-source AI agents below. MS in Computer Engineering from UC Riverside. More at **[hritvikgupta.in](https://hritvikgupta.in/)**.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-hritvikgupta.in-4BA3F2?style=flat)](https://hritvikgupta.in/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-hritvik--gupta-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/hritvik-gupta)
+[![Email](https://img.shields.io/badge/Email-hritvik2920%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:hritvik2920@gmail.com)
+
+## Open Source
+
+<a href="https://github.com/hritvikgupta/nimbus"><img src="https://opengraph.githubassets.com/hg1/hritvikgupta/nimbus" alt="nimbus" width="49%" /></a>
+<a href="https://github.com/hritvikgupta/reagent"><img src="https://opengraph.githubassets.com/hg1/hritvikgupta/reagent" alt="reagent" width="49%" /></a>
+<a href="https://github.com/hritvikgupta/Archimyst-Terminal"><img src="https://opengraph.githubassets.com/hg1/hritvikgupta/Archimyst-Terminal" alt="Archimyst Terminal" width="49%" /></a>
+<a href="https://github.com/hritvikgupta/trytine"><img src="https://opengraph.githubassets.com/hg1/hritvikgupta/trytine" alt="tine" width="49%" /></a>
+
+- **[nimbus](https://github.com/hritvikgupta/nimbus)** — talk to your cloud: an open-source, self-hostable AI agent that reads your code, operates AWS & GCP, and opens PRs (CloudWatch/Cloud Logging → root cause → fix)
+- **[reagent](https://github.com/hritvikgupta/reagent)** — autonomous research agents that read the literature, weigh the evidence, run the experiment, and hand you a cited, reproducible answer
+- **[Archimyst Terminal](https://github.com/hritvikgupta/Archimyst-Terminal)** — a native agentic coding assistant for the terminal: design, build, debug, and ship from the CLI
+- **[tine](https://github.com/hritvikgupta/trytine)** — native macOS AI companion (Swift)
+
+## Products
+
+| | |
+|---|---|
+| **[MotionNote](https://motionnote.com)** | AI word processor — text → charts, diagrams, and explainer videos, with RAG-powered document chat |
+| **[MotionExcel](https://github.com/hritvikgupta/motion-excel)** | AI data analyst — text-to-SQL, automated dashboards, Python analysis on spreadsheets |
+| **[StoryBorrd](https://storyborrd.com)** | Figma-style AI research canvas — 200+ models, graph memory, multimodal RAG |
+| **[Awaken](https://awaken.sh)** | AI avatar studio — speech-synced avatar video generation with voice cloning |
+
+## Research
+
+- Genome-wide pleiotropy analysis — *medRxiv, 2025*
+- Extractive text summarization with ELMo — *IEEE I-SMAC*
+- EEG microstate analysis with RNNs — *i-PACT*
+- LSA topic modeling + BERT — *AI Smart Systems*
+
+🏆 **Penn Health-Tech Innovation Accelerator Award (2025)** — CIRCA, voice-AI healthcare services for patients
+
+## Stack
+
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white&style=flat)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white&style=flat)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white&style=flat)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat)
+![Spark](https://img.shields.io/badge/-Spark-E25A1C?logo=apachespark&logoColor=white&style=flat)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?logo=amazonwebservices&logoColor=white&style=flat)
+![GCP](https://img.shields.io/badge/-GCP-4285F4?logo=googlecloud&logoColor=white&style=flat)
+![Azure](https://img.shields.io/badge/-Azure-0078D4?logo=icloud&logoColor=white&style=flat)
+
+## GitHub
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=4BA3F2&size=22&center=true&vCenter=true&width=700&lines=AI+Engineer+@+Penn+Medicine;LLM+%7C+RAG+Architect;Founder+of+MotionNote+StoryBorrd+Awaken;AI+Products+Used+by+100K%2B+Users;Turning+Ideas+into+Real+AI+Systems+🚀" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=hritvikgupta&show_icons=true&theme=transparent&hide_border=true" height="165" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com?user=hritvikgupta&theme=transparent&hide_border=true" height="165" alt="GitHub Streak" />
 </p>
-
----
-
-# 🛠️ **Tech Stack**
-
-<p align="center">
-
-<!-- AI/ML -->
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Transformers-HuggingFace-yellow?style=for-the-badge&logo=huggingface&logoColor=black" />
-<img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=chainlink&logoColor=white" />
-<img src="https://img.shields.io/badge/LlamaIndex-1A73E8?style=for-the-badge" />
-<img src="https://img.shields.io/badge/FAISS-005571?style=for-the-badge" />
-<img src="https://img.shields.io/badge/RAG%20Pipelines-4BA3F2?style=for-the-badge" />
-
-<!-- Backend / DevOps -->
-<br />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-<img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
-
-<!-- Data Engineering -->
-<br />
-<img src="https://img.shields.io/badge/Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black" />
-<img src="https://img.shields.io/badge/Delta%20Lake-0E81B4?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Postgres-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-
-<!-- Frontend -->
-<br />
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/Next.js-FFFFFF?style=for-the-badge&logo=next.js&logoColor=black" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-
-<!-- Analytics / BI -->
-<br />
-<img src="https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
-<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
-
-</p>
-
----
-
-# 🌟 **About Me**
-
-I’m an **AI Engineer** specializing in:
-
-- Large Language Models (LLMs)  
-- Retrieval-Augmented Generation (RAG)  
-- Voice + Chat AI Agents  
-- Vector search (FAISS, LlamaIndex)  
-- Multimodal reasoning  
-- Distributed Data Engineering (Spark + Delta Lake)  
-- Full-stack AI SaaS development  
-
-I’ve built:
-
-- 🎤 **AI Voice Chat Agent** used by **100,000+ patients**  
-- 🧠 RAG engines for genomics + scientific research  
-- 📝 AI Word Processor (MotionNote)  
-- 🧩 AI Research Canvas (StoryBorrd)  
-- 🎙️ AI Avatar Studio (Awaken)  
-- 📊 Predictive analytics used by 5000+ employees  
-
----
-
-# 🧠 **Experience**
-
-## **AI Engineer — Penn Medicine** (Jul 2024 - Present)
-- Built an AI Voice & Chat system for Perception Care used by 100K+ West Coast patients; designed multilingual speech → RAG → LLM pipeline using LlamaIndex, FAISS, LangChain, FastAPI, and Docker.
-- Engineered data generation for speech and language models retrieval, vector search, and prompt-routing workflows, reducing response latency by ~28% and improving clinical-text retrieval accuracy by 22%.
-- Enhanced PLATLAS genomics platform with ML-based variant ranking and phenotype-similarity scoring; collaborated with Argonne National Lab and leveraged the Aurora supercomputer to run 27M-SNP Nextflow pipelines and added LLM-guided GWAS/EXWAS analysis.
-- Developed PySpark + Delta Lake pipelines standardizing 30+ clinical datasets into OMOP, enabling real-time cohort building and disease-trend dashboards.
-
----
-
-## **Graduate Researcher (NLP) — University of California, Riverside** (Oct 2022 – Dec 2023)
-- Built large-scale NLP pipelines (Python, Spark, SQL) for 10M+ multilingual research documents, improving tokenization + embedding generation speed by ~40% for downstream scientific analysis.
-- Optimized RAG systems using LlamaIndex + LangChain, raising scientific text retrieval accuracy by 22% and reducing context-window failures through improved chunking + prompt-routing.
-
----
-
-## **Data Analyst — Cognizant** (Aug 2021 – Aug 2022)
-- Built Python + SQL ETL pipelines processing 20K+ HR, payroll, and marketing records across 50 operational datasets, improving data accuracy and reconciliation reliability by ~35%.
-- Developed Scikit-learn + SAS predictive models for attrition and hiring demand, improving workforce planning accuracy and staffing decisions for 5,000+ employees.  
-
----
-
-# 🚀 **AI Products (Founder)**
-
-## 📝 **MotionNote — AI Word Processor**
-<img src="./assets/motionnote/motionnotedemo.png" width="100%" />
-
-**The Open Source AI-Powered Word Processor**
-
-MotionNote is the fastest and easiest way to create, edit, and enhance documents with AI assistance. It turns **text → charts → diagrams → videos** using AI.
-
-- **Chart + Diagram Generator**: Select text to convert to charts/graphs.
-- **Video Generation**: Convert notes into high-quality explainer videos.
-- **RAG-Powered Contextual Memory**: Chat with your documents.
-- **AI Copilot**: Intelligent writing companion.
-- **Tech Stack**: FastAPI + Supabase + CopilotKit + Vue 3.
-
-🔗 [motionnote.com](https://motionnote.com)
-
----
-
-## 📊 **MotionExcel — AI Data Analyst**
-<img src="./assets/motionexcel/dashboard.gif" width="100%" />
-
-**Automated Data Analysis & Visualization Dashboard**
-
-MotionExcel transforms raw data into actionable insights using AI-driven SQL generation and Python analysis.
-
-- **Text-to-SQL**: Query your database using natural language.
-- **Automated Dashboards**: Instantly generate visual dashboards from your data.
-- **Python Data Analysis**: Run complex Python analysis scripts on your spreadsheet data.
-- **Pivot Tables & Charts**: Create pivot tables and charts with a single click.
-
-### 🎥 **Demos**
-- [📊 Dashboard Generation](./motionexcel/videos/dashboard%20(1).mp4)
-- [🐍 Python Data Analysis](./motionexcel/videos/pythontest.mp4)
-- [🗄️ Text to SQL](./motionexcel/videos/sql.mp4)
-- [📈 Smart Pivot Tables](./motionexcel/videos/pivot%20(1).mp4)
-
----
-
-## 🧠 **StoryBorrd — AI Research Canvas**  
-<img src="https://storyborrd.com/storyborrd-logo.png" width="140" />
-
-Figma-style AI canvas for research, storytelling & multimodal workflows.
-
-- 200+ AI models integrated  
-- Graph-memory engine  
-- RAG over docs, tables, PDFs  
-- Multimodal reasoning  
-🔗 https://storyborrd.com  
-
----
-
-## 🎙️ **Awaken — AI Avatar Studio**  
-<img src="https://awaken.sh/logo.svg" width="120" />
-
-Lifelike AI avatar video generation.
-
-- Realistic speech-sync avatars  
-- Voice cloning  
-- Slide / script sync  
-- Automated invoice system  
-🔗 https://awaken.sh  
-
----
-
-# 📚 **Publications**
-
-- Genome-Wide Pleiotropy Analysis — *medRxiv, 2025*  
-- Extractive Text Summarization (ELMo) — *IEEE I-SMAC*  
-- EEG Microstate Analysis (RNN) — *i-PACT*  
-- LSA Topic Modeling + BERT — *AI Smart Systems*  
-
----
-
-# 🏆 **Awards**
-
-- **Health-Tech Innovation Accelerator Award – Penn Health-Tech (2025)**, CIRCA Voice-AI For General Healthcare Services to patients
-
----
-
-# 🎓 **Education**
-
-- **Masters In Computer Engineering** — University of California - Riverside (Sep 2022 – Dec 2023)
-- **B.Tech Computer Science** — GITS Udaipur  
-
----
-
-# 📊 **GitHub Analytics**
-
-<p align="center">
-  <!-- GitHub Stats (Using a backup mirror to fix loading issues) -->
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=hritvikgupta&show_icons=true&theme=tokyonight" height="170" alt="GitHub Stats" />
-  
-  <!-- GitHub Streak (Fixed: switched from herokuapp to demolab) -->
-  <img src="https://streak-stats.demolab.com?user=hritvikgupta&theme=tokyonight" height="170" alt="GitHub Streak" />
-  
-  <br />
-  
-  <!-- Top Languages -->
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=hritvikgupta&layout=compact&theme=tokyonight" height="150" alt="Top Languages" />
-</p>
-
----
-
-# 🤝 **Connect With Me**
-
-📧 Email: **hritvik2920@gmail.com**  
-🔗 LinkedIn: https://linkedin.com/in/hritvik-gupta  
-💻 GitHub: https://github.com/hritvikgupta  
-
----
-
-# 😄 **Fun Fact**
-
-Every AI product starts as a tiny script…  
-and then becomes your entire life 😂
-
