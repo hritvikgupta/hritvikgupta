@@ -1,16 +1,18 @@
-<img src="assets/hero.png" width="100%" alt="Hritvik Gupta — AI Engineer @ Penn Medicine. I build agents that do real work, not demos." />
+<img src="assets/banner.jpg" width="100%" alt="" />
+
+<img src="assets/hero.svg" width="100%" alt="Hritvik Gupta — AI Engineer @ Penn Medicine · Verma Lab. I build agents that do real work, not demos. Multi-agent orchestration, longitudinal memory, RAG and retrieval, eval harnesses, LLM infrastructure." />
 
 <p align="center">
-  <a href="https://hritvikgupta.github.io/hritvik-gupta/"><img src="https://img.shields.io/badge/Portfolio-hritvikgupta.github.io-FF6B4A?style=for-the-badge&labelColor=0A0B0D&logo=googlechrome&logoColor=FF6B4A" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/hritvik-gupta-link/"><img src="https://img.shields.io/badge/LinkedIn-hritvik--gupta-0A66C2?style=for-the-badge&labelColor=0A0B0D&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
-  <a href="mailto:hritvik2920@gmail.com"><img src="https://img.shields.io/badge/Email-hritvik2920@gmail.com-C5CAD3?style=for-the-badge&labelColor=0A0B0D&logo=gmail&logoColor=C5CAD3" alt="Email" /></a>
+  <a href="https://hritvikgupta.github.io/hritvik-gupta/"><img src="https://img.shields.io/badge/Portfolio-hritvikgupta.github.io-E14D2A?style=for-the-badge&labelColor=FFFFFF&logo=googlechrome&logoColor=E14D2A" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/hritvik-gupta-link/"><img src="https://img.shields.io/badge/LinkedIn-hritvik--gupta-0A66C2?style=for-the-badge&labelColor=FFFFFF&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+  <a href="mailto:hritvik2920@gmail.com"><img src="https://img.shields.io/badge/Email-hritvik2920@gmail.com-16191D?style=for-the-badge&labelColor=FFFFFF&logo=gmail&logoColor=16191D" alt="Email" /></a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=hritvikgupta&label=Profile%20views&color=FF6B4A&style=flat-square" alt="Profile views" />
-  <a href="https://github.com/hritvikgupta?tab=followers"><img src="https://img.shields.io/github/followers/hritvikgupta?label=Followers&style=flat-square&color=FF6B4A&labelColor=0A0B0D" alt="Followers" /></a>
-  <img src="https://img.shields.io/badge/Focus-Autonomous%20Agents-FF6B4A?style=flat-square&labelColor=0A0B0D" alt="Focus" />
-  <img src="https://img.shields.io/badge/Open%20to-Collaborations-C5CAD3?style=flat-square&labelColor=0A0B0D" alt="Open to collaborations" />
+  <img src="https://komarev.com/ghpvc/?username=hritvikgupta&label=Profile%20views&color=E14D2A&style=flat-square" alt="Profile views" />
+  <a href="https://github.com/hritvikgupta?tab=followers"><img src="https://img.shields.io/github/followers/hritvikgupta?label=Followers&style=flat-square&color=E14D2A&labelColor=FFFFFF" alt="Followers" /></a>
+  <img src="https://img.shields.io/badge/Focus-Autonomous%20agents-E14D2A?style=flat-square&labelColor=FFFFFF" alt="Focus" />
+  <img src="https://img.shields.io/badge/Open%20to-Collaborations-16191D?style=flat-square&labelColor=FFFFFF" alt="Open to collaborations" />
 </p>
 
 ---
@@ -19,16 +21,16 @@
 
 I'm **Hritvik** — an AI engineer at **Penn Medicine (Verma Lab)**, where I ship voice and chat systems that real patients actually use. Outside of work I build **autonomous agents**: things that read your code, operate your cloud, read the literature, and hand back a result you can verify.
 
-My bet is simple: the interesting part of an agent isn't the model, it's the loop around it — memory, tools, and evals. Most agents feel dumb because they forget, not because they can't reason.
+My bet is simple — the interesting part of an agent isn't the model, it's the loop around it: memory, tools, and evals. Most agents feel dumb because they forget, not because they can't reason.
 
 ```yaml
-name:      Hritvik Gupta
-role:      AI Engineer @ Penn Medicine · Verma Lab
-education: MS Computer Engineering, UC Riverside
-thesis:    "agents should do real work — not demos"
-building:  [autonomous agents, LLM infrastructure, agent evals & benchmarks]
-languages: [Python, TypeScript, Swift, SQL, C++]
-now:       multi-agent orchestration · longitudinal memory · self-hosted agent infra
+name:         Hritvik Gupta
+role:         AI Engineer @ Penn Medicine · Verma Lab
+education:    MS Computer Engineering, UC Riverside
+thesis:       "agents should do real work — not demos"
+building:     [autonomous agents, LLM infrastructure, agent evals & benchmarks]
+languages:    [Python, TypeScript, Swift, SQL, C++]
+now:          multi-agent orchestration · longitudinal memory · self-hosted agent infra
 ask-me-about: [RAG at scale, agent evals, multilingual speech pipelines, genomics ML]
 ```
 
@@ -59,7 +61,7 @@ ask-me-about: [RAG at scale, agent evals, multilingual speech pipelines, genomic
 
 | Project | What it is |
 |---|---|
-| [**chytra**](https://github.com/hritvikgupta/chytra) | AI-powered research and creative canvas — Figma-style design surface wired to 200+ models, with a graph-memory architecture that connects ideas, documents, and findings |
+| [**chytra**](https://github.com/hritvikgupta/chytra) | AI-powered research and creative canvas — a Figma-style design surface wired to 200+ models, with a graph-memory architecture that connects ideas, documents, and findings |
 | [**worklone**](https://github.com/hritvikgupta/worklone) | Next-generation AI spreadsheet and agentic framework — natural-language data workflows, a built-in Data Scientist agent, and multi-agent request routing |
 | [**probeqa**](https://github.com/hritvikgupta/probeqa) | Agentic QA — a real testing agent that drives the app instead of asserting on mocks |
 | [**voiceai**](https://github.com/hritvikgupta/voiceai) | Real-time voice agent stack: streaming STT → LLM brain → TTS |
@@ -83,8 +85,8 @@ flowchart LR
     V -->|ship| O(["Real-world side effect"])
     M[("Longitudinal<br/>memory")] <--> R
 
-    classDef n fill:#0f1115,stroke:#30363d,color:#e6edf3
-    classDef h fill:#1e1113,stroke:#FF6B4A,color:#f0f3f6
+    classDef n fill:#F6F8FA,stroke:#C6CDD5,color:#16191D
+    classDef h fill:#FDF0EC,stroke:#E14D2A,color:#16191D
     class U,P,S,A,V,O n
     class R,M h
 ```
@@ -163,9 +165,9 @@ gantt
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white" />
-<img src="https://img.shields.io/badge/LlamaIndex-0A0B0D?style=flat-square&logo=llama&logoColor=white" />
+<img src="https://img.shields.io/badge/LlamaIndex-2E2E2E?style=flat-square&logo=llama&logoColor=white" />
+<img src="https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white" />
 <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white" />
-<img src="https://img.shields.io/badge/RAG-FF6B4A?style=flat-square&logoColor=white" />
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
 </td></tr>
 <tr><td><b>Backend</b></td><td>
@@ -200,36 +202,20 @@ gantt
 ## 📊 GitHub statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hritvikgupta&show_icons=true&include_all_commits=true&count_private=true&hide_border=false&border_color=1E222A&bg_color=0A0B0D&title_color=FF6B4A&text_color=C5CAD3&icon_color=FF6B4A&border_radius=12" height="180" alt="Hritvik's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hritvikgupta&layout=compact&langs_count=8&hide_border=false&border_color=1E222A&bg_color=0A0B0D&title_color=FF6B4A&text_color=C5CAD3&border_radius=12" height="180" alt="Top languages" />
+  <img src="assets/stats.svg" height="230" alt="GitHub statistics" />
+  <img src="assets/langs.svg" height="230" alt="Most used languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=hritvikgupta&hide_border=false&border=1E222A&background=0A0B0D&stroke=1E222A&ring=FF6B4A&fire=FF6B4A&currStreakNum=F4F5F7&currStreakLabel=FF6B4A&sideNums=C5CAD3&sideLabels=C5CAD3&dates=5A616D&border_radius=12" height="180" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=hritvikgupta&theme=github_dark&utcOffset=-8" height="200" alt="Productive time" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hritvikgupta&theme=github_dark" height="200" alt="Repos per language" />
-</p>
-
-### 🏆 Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=hritvikgupta&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="Trophies" />
-</p>
-
-### 📈 Contribution activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=hritvikgupta&bg_color=0A0B0D&color=C5CAD3&line=FF6B4A&point=F4F5F7&area=true&area_color=FF6B4A&hide_border=false&border_color=1E222A&radius=12" width="100%" alt="Contribution activity graph" />
+  <img src="assets/contributions.svg" width="100%" alt="Contribution activity over the last year" />
 </p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hritvikgupta/hritvikgupta/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hritvikgupta/hritvikgupta/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/hritvikgupta/hritvikgupta/output/github-snake.svg" width="100%" alt="Contribution snake" />
+  <img src="https://raw.githubusercontent.com/hritvikgupta/hritvikgupta/output/github-snake.svg" width="100%" alt="A snake eating my contribution graph" />
 </picture>
+
+<sub>The stats, language, and contribution cards above are generated from the GitHub GraphQL API by <a href="scripts/generate_stats.py"><code>scripts/generate_stats.py</code></a> and refreshed daily by <a href=".github/workflows/stats.yml">Actions</a> — no third-party services.</sub>
 
 ---
 
@@ -249,13 +235,13 @@ gantt
 
 ## 🤝 Let's build something
 
-I'm always up for a conversation about agents that have to work in the real world — production credentials, messy data, users who notice when it's wrong.
+I'm always up for a conversation about agents that have to work in the real world — production credentials, messy data, and users who notice when it's wrong.
 
 <p align="center">
-  <a href="https://hritvikgupta.github.io/hritvik-gupta/"><img src="https://img.shields.io/badge/Portfolio-FF6B4A?style=for-the-badge&labelColor=0A0B0D&logo=googlechrome&logoColor=FF6B4A" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/hritvik-gupta-link/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&labelColor=0A0B0D&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
-  <a href="mailto:hritvik2920@gmail.com"><img src="https://img.shields.io/badge/Email-C5CAD3?style=for-the-badge&labelColor=0A0B0D&logo=gmail&logoColor=C5CAD3" alt="Email" /></a>
-  <a href="https://github.com/hritvikgupta?tab=repositories"><img src="https://img.shields.io/badge/Repositories-C5CAD3?style=for-the-badge&labelColor=0A0B0D&logo=github&logoColor=C5CAD3" alt="Repositories" /></a>
+  <a href="https://hritvikgupta.github.io/hritvik-gupta/"><img src="https://img.shields.io/badge/Portfolio-E14D2A?style=for-the-badge&labelColor=FFFFFF&logo=googlechrome&logoColor=E14D2A" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/hritvik-gupta-link/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&labelColor=FFFFFF&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
+  <a href="mailto:hritvik2920@gmail.com"><img src="https://img.shields.io/badge/Email-16191D?style=for-the-badge&labelColor=FFFFFF&logo=gmail&logoColor=16191D" alt="Email" /></a>
+  <a href="https://github.com/hritvikgupta?tab=repositories"><img src="https://img.shields.io/badge/Repositories-16191D?style=for-the-badge&labelColor=FFFFFF&logo=github&logoColor=16191D" alt="Repositories" /></a>
 </p>
 
 <p align="center"><sub><code>~/hritvik $ agents --status</code> → <b>shipping</b></sub></p>
