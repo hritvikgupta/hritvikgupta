@@ -124,7 +124,8 @@ def fetch():
         c = c["user"]["contributionsCollection"]
         commits += c["totalCommitContributions"] + c["restrictedContributionsCount"]
         reviews += c["totalPullRequestReviewContributions"]
-        contributions += c["contributionCalendar"]["totalContributions"]
+        contributions += (c["contributionCalendar"]["totalContributions"]
+                          + c["restrictedContributionsCount"])
 
     cal = graphql(CALENDAR_Q, {
         "login": USER,
@@ -145,23 +146,8 @@ def fetch():
             entry = langs.setdefault(node["name"], {"size": 0.0, "color": node["color"] or "#8B95A1"})
             entry["size"] += edge["size"] / repo_total
 
-    days = [d for w in cal["weeks"] for d in w["contributionDays"]]
-    days.sort(key=lambda d: d["date"])
-    longest = run = 0
-    for d in days:
-        run = run + 1 if d["contributionCount"] > 0 else 0
-        longest = max(longest, run)
-    current = 0
-    for d in reversed(days):
-        if d["contributionCount"] > 0:
-            current += 1
-        elif current or d is not days[-1]:
-            break
-
     return {
         "name": base["name"] or base["login"],
-        "streak_current": current,
-        "streak_longest": longest,
         "created": created,
         "stars": sum(r["stargazerCount"] for r in repos),
         "forks": sum(r["forkCount"] for r in repos),
@@ -347,12 +333,11 @@ def contributions_card(s):
   <defs><style>.mono{{font-family:{MONO}}}.sans{{font-family:{SANS}}}</style></defs>
   <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="13" fill="{BG}" stroke="{BORDER}"/>
   <text class="mono" x="30" y="38" font-size="11" letter-spacing="2.4" fill="{ACCENT}">CONTRIBUTION ACTIVITY</text>
-  <text class="mono" x="{width - 30}" y="38" font-size="10" letter-spacing="1.4" fill="{DIM}" text-anchor="end">{total:,} IN THE LAST YEAR · PEAK {peak}/DAY</text>
+  <text class="mono" x="{width - 30}" y="38" font-size="10" letter-spacing="1.4" fill="{DIM}" text-anchor="end">{total:,} IN THE LAST YEAR</text>
   <line x1="30" y1="56.5" x2="{width - 30}" y2="56.5" stroke="{HAIR}"/>
   {''.join(months)}
   {days}
   {''.join(squares)}
-  <text class="mono" x="30" y="{y0 + 7 * step + 22}" font-size="9.5" letter-spacing="1.4" fill="{MUTED}">CURRENT STREAK <tspan fill="{ACCENT}" font-weight="600">{s['streak_current']}D</tspan>   ·   LONGEST STREAK <tspan fill="{ACCENT}" font-weight="600">{s['streak_longest']}D</tspan>   ·   PEAK <tspan fill="{ACCENT}" font-weight="600">{peak}</tspan> IN A DAY</text>
   <text class="mono" x="{legend_x}" y="{y0 + 7 * step + 22}" font-size="9" letter-spacing="1.2" fill="{DIM}">LESS</text>
   {legend}
   <text class="mono" x="{legend_x + 124}" y="{y0 + 7 * step + 22}" font-size="9" letter-spacing="1.2" fill="{DIM}">MORE</text>
@@ -370,8 +355,7 @@ def main():
     print(f"stars={s['stars']} commits={s['commits']} contributions={s['contributions']} "
           f"prs={s['prs']} issues={s['issues']} repos={s['repos']} followers={s['followers']} "
           f"reviews={s['reviews']} rank={grade} ({percentile:.2f}%) "
-          f"lastYear={s['calendar']['totalContributions']} "
-          f"streak={s['streak_current']}/{s['streak_longest']}")
+          f"lastYear={s['calendar']['totalContributions']}")
 
 
 if __name__ == "__main__":
