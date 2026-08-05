@@ -14,7 +14,7 @@ import math
 import os
 import sys
 import urllib.request
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
 
@@ -26,7 +26,7 @@ ASSETS = ROOT / "assets"
 # light design system
 BG, BORDER, HAIR = "#FFFFFF", "#E3E6EA", "#EDF0F3"
 INK, MUTED, DIM, ACCENT = "#16191D", "#525C68", "#8B95A1", "#E14D2A"
-HEAT = ["#F0F2F4", "#FBD9CE", "#F7AE97", "#EF7E5D", "#E14D2A"]
+TINT = "#FBD9CE"
 MONO = 'ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace'
 SANS = '-apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif'
 
@@ -86,19 +86,6 @@ query($login: String!, $from: DateTime!, $to: DateTime!) {
 }
 """
 
-CALENDAR_Q = """
-query($login: String!, $from: DateTime!, $to: DateTime!) {
-  user(login: $login) {
-    contributionsCollection(from: $from, to: $to) {
-      contributionCalendar {
-        totalContributions
-        weeks { contributionDays { date contributionCount weekday } }
-      }
-    }
-  }
-}
-"""
-
 
 def fetch():
     repos, after, base = [], None, None
@@ -115,6 +102,7 @@ def fetch():
     now = datetime.now(timezone.utc)
 
     commits = reviews = contributions = 0
+    by_year = []
     for year in range(created.year, now.year + 1):
         frm = max(created, datetime(year, 1, 1, tzinfo=timezone.utc))
         to = min(now, datetime(year, 12, 31, 23, 59, 59, tzinfo=timezone.utc))
@@ -122,16 +110,12 @@ def fetch():
             continue
         c = graphql(YEAR_Q, {"login": USER, "from": frm.isoformat(), "to": to.isoformat()})
         c = c["user"]["contributionsCollection"]
-        commits += c["totalCommitContributions"] + c["restrictedContributionsCount"]
+        year_commits = c["totalCommitContributions"] + c["restrictedContributionsCount"]
+        by_year.append((year, year_commits))
+        commits += year_commits
         reviews += c["totalPullRequestReviewContributions"]
         contributions += (c["contributionCalendar"]["totalContributions"]
                           + c["restrictedContributionsCount"])
-
-    cal = graphql(CALENDAR_Q, {
-        "login": USER,
-        "from": (now - timedelta(days=364)).isoformat(),
-        "to": now.isoformat(),
-    })["user"]["contributionsCollection"]["contributionCalendar"]
 
     # Normalise language bytes *within* each repo before summing, so a single
     # asset-heavy repository can't claim 90% of the profile.
@@ -157,35 +141,12 @@ def fetch():
         "issues": base["issues"]["totalCount"],
         "contributed": base["repositoriesContributedTo"]["totalCount"],
         "commits": commits,
+        "by_year": by_year,
         "reviews": reviews,
         "contributions": contributions,
-        "calendar": cal,
         "langs": langs,
     }
 
-
-def rank(s):
-    """The github-readme-stats grading curve, implemented locally."""
-    def cdf(x):
-        return 1 - 2 ** -x
-
-    weights = [
-        (s["commits"], 1000, 2),
-        (s["contributed"], 25, 1),
-        (s["issues"], 25, 1),
-        (s["stars"], 50, 4),
-        (s["prs"], 50, 2),
-        (s["followers"], 10, 1),
-        (s["reviews"], 2, 1),
-    ]
-    total = sum(w for _, _, w in weights)
-    score = sum(cdf(value / median) * w for value, median, w in weights) / total
-    percentile = (1 - score) * 100
-    for grade, threshold in [("S", 1), ("A+", 12.5), ("A", 25), ("A-", 37.5),
-                             ("B+", 50), ("B", 62.5), ("B-", 75), ("C+", 87.5)]:
-        if percentile <= threshold:
-            return grade, percentile
-    return "C", percentile
 
 
 def human(n):
@@ -216,36 +177,57 @@ def head(width, label, right=""):
 
 
 def stats_card(s):
-    grade, percentile = rank(s)
-    filled = max(0.06, 1 - percentile / 100)
-    years = datetime.now(timezone.utc).year - s["created"].year
-
     rows = [
         ("Total stars earned", human(s["stars"])),
         ("Total commits", human(s["commits"])),
         ("Total contributions", human(s["contributions"])),
         ("Total pull requests", human(s["prs"])),
         ("Total issues", human(s["issues"])),
-        ("Public repositories", human(s["repos"])),
+        ("Repositories", human(s["repos"])),
     ]
     lines = "".join(
         f'<text class="sans" x="30" y="{92 + i * 26}" font-size="13" fill="{MUTED}">{escape(label)}</text>'
-        f'<text class="mono" x="330" y="{92 + i * 26}" font-size="13.5" font-weight="600" '
+        f'<text class="mono" x="300" y="{92 + i * 26}" font-size="13.5" font-weight="600" '
         f'fill="{INK}" text-anchor="end">{value}</text>'
         for i, (label, value) in enumerate(rows)
     )
 
-    cx, cy, r = 424, 128, 44
+    # commits per year — real, verifiable, and it actually shows a trajectory
+    years = s["by_year"]
+    peak = max((c for _, c in years), default=1) or 1
+    x0, x1, base, tall = 342.0, 490.0, 208.0, 96.0
+    bw = (x1 - x0 - (len(years) - 1) * 5) / max(len(years), 1)
+    bars = []
+    for i, (year, count) in enumerate(years):
+        h = max(2.0, tall * count / peak)
+        x = x0 + i * (bw + 5)
+        bars.append(
+            f'<rect x="{x:.1f}" y="{base - h:.1f}" width="{bw:.1f}" height="{h:.1f}" rx="2.5" '
+            f'fill="{ACCENT if count == peak else TINT}"/>'
+        )
+        if count == peak:
+            bars.append(
+                f'<text class="mono" x="{x + bw / 2:.1f}" y="{base - h - 7:.1f}" font-size="9" '
+                f'font-weight="600" fill="{ACCENT}" text-anchor="middle">{count}</text>'
+            )
+
+    axis = ""
+    if years:
+        axis = (
+            f'<text class="mono" x="{x0:.1f}" y="{base + 15}" font-size="8.5" fill="{DIM}">{years[0][0]}</text>'
+            f'<text class="mono" x="{x1:.1f}" y="{base + 15}" font-size="8.5" fill="{DIM}" '
+            f'text-anchor="end">{years[-1][0]}</text>'
+        )
+
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="520" height="270" viewBox="0 0 520 270" role="img" aria-label="GitHub statistics for {USER}">
-  <title>GitHub statistics — {human(s['stars'])} stars, {human(s['commits'])} commits, rank {grade}</title>
+  <title>GitHub statistics — {human(s['stars'])} stars, {human(s['commits'])} commits</title>
   <defs><style>.mono{{font-family:{MONO}}}.sans{{font-family:{SANS}}}</style></defs>
-  {head(520, 'GITHUB STATS', f'{years} YEARS ON GITHUB').format(h=269)}
+  {head(520, 'GITHUB STATS', f'{datetime.now(timezone.utc).year - s["created"].year} YEARS ON GITHUB').format(h=269)}
   {lines}
-  <circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{HAIR}" stroke-width="7"/>
-  <path d="{arc(cx, cy, r, filled)}" fill="none" stroke="{ACCENT}" stroke-width="7" stroke-linecap="round"/>
-  <text class="sans" x="{cx}" y="{cy + 4}" font-size="27" font-weight="700" fill="{INK}" text-anchor="middle">{grade}</text>
-  <text class="mono" x="{cx}" y="{cy + 22}" font-size="8" letter-spacing="1.2" fill="{DIM}" text-anchor="middle">TOP {percentile:.1f}%</text>
-  <text class="mono" x="{cx}" y="{cy + 68}" font-size="8.5" letter-spacing="1.6" fill="{DIM}" text-anchor="middle">RANK</text>
+  <text class="mono" x="342" y="86" font-size="9" letter-spacing="1.6" fill="{DIM}">COMMITS BY YEAR</text>
+  <line x1="342" y1="{base + 0.5}" x2="490" y2="{base + 0.5}" stroke="{HAIR}"/>
+  {''.join(bars)}
+  {axis}
 </svg>
 """
 
@@ -278,71 +260,10 @@ def langs_card(s):
   {''.join(bar)}
   {''.join(legend)}
   <line x1="30" y1="240.5" x2="430" y2="240.5" stroke="{HAIR}"/>
-  <text class="mono" x="30" y="258" font-size="9" letter-spacing="1.5" fill="{DIM}">ACROSS {s['repos']} PUBLIC REPOSITORIES</text>
+  <text class="mono" x="30" y="258" font-size="9" letter-spacing="1.5" fill="{DIM}">ACROSS {s['repos']} REPOSITORIES</text>
 </svg>
 """
 
-
-def contributions_card(s):
-    weeks = s["calendar"]["weeks"]
-    total = s["calendar"]["totalContributions"]
-    peak = max((d["contributionCount"] for w in weeks for d in w["contributionDays"]), default=0)
-
-    def level(n):
-        if n == 0:
-            return HEAT[0]
-        for i, cut in enumerate([0.15, 0.35, 0.6], start=1):
-            if n <= max(1, peak * cut):
-                return HEAT[i]
-        return HEAT[4]
-
-    cell, gap, x0, y0 = 13.0, 3.6, 62.0, 92.0
-    step = cell + gap
-    squares, months, seen = [], [], set()
-    for wi, week in enumerate(weeks):
-        for day in week["contributionDays"]:
-            d = datetime.fromisoformat(day["date"])
-            x = x0 + wi * step
-            y = y0 + day["weekday"] * step
-            squares.append(
-                f'<rect x="{x:.1f}" y="{y:.1f}" width="{cell}" height="{cell}" rx="3" '
-                f'fill="{level(day["contributionCount"])}"/>'
-            )
-            if d.day <= 7 and d.strftime("%b") not in seen and wi > 0:
-                seen.add(d.strftime("%b"))
-                months.append(
-                    f'<text class="mono" x="{x:.1f}" y="{y0 - 12}" font-size="9.5" '
-                    f'letter-spacing="1" fill="{DIM}">{d.strftime("%b").upper()}</text>'
-                )
-
-    days = "".join(
-        f'<text class="mono" x="48" y="{y0 + i * step + 10:.1f}" font-size="9" fill="{DIM}" '
-        f'text-anchor="end">{lbl}</text>'
-        for i, lbl in [(1, "MON"), (3, "WED"), (5, "FRI")]
-    )
-    legend_x = x0 + len(weeks) * step - 130
-    legend = "".join(
-        f'<rect x="{legend_x + 34 + i * 17}" y="{y0 + 7 * step + 12}" width="{cell}" height="{cell}" rx="3" fill="{c}"/>'
-        for i, c in enumerate(HEAT)
-    )
-
-    width = int(x0 + len(weeks) * step + 46)
-    height = int(y0 + 7 * step + 62)
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{total} contributions in the last year">
-  <title>{total} contributions in the last year</title>
-  <defs><style>.mono{{font-family:{MONO}}}.sans{{font-family:{SANS}}}</style></defs>
-  <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="13" fill="{BG}" stroke="{BORDER}"/>
-  <text class="mono" x="30" y="38" font-size="11" letter-spacing="2.4" fill="{ACCENT}">CONTRIBUTION ACTIVITY</text>
-  <text class="mono" x="{width - 30}" y="38" font-size="10" letter-spacing="1.4" fill="{DIM}" text-anchor="end">{total:,} IN THE LAST YEAR</text>
-  <line x1="30" y1="56.5" x2="{width - 30}" y2="56.5" stroke="{HAIR}"/>
-  {''.join(months)}
-  {days}
-  {''.join(squares)}
-  <text class="mono" x="{legend_x}" y="{y0 + 7 * step + 22}" font-size="9" letter-spacing="1.2" fill="{DIM}">LESS</text>
-  {legend}
-  <text class="mono" x="{legend_x + 124}" y="{y0 + 7 * step + 22}" font-size="9" letter-spacing="1.2" fill="{DIM}">MORE</text>
-</svg>
-"""
 
 
 def main():
@@ -350,12 +271,9 @@ def main():
     ASSETS.mkdir(exist_ok=True)
     (ASSETS / "stats.svg").write_text(stats_card(s))
     (ASSETS / "langs.svg").write_text(langs_card(s))
-    (ASSETS / "contributions.svg").write_text(contributions_card(s))
-    grade, percentile = rank(s)
     print(f"stars={s['stars']} commits={s['commits']} contributions={s['contributions']} "
           f"prs={s['prs']} issues={s['issues']} repos={s['repos']} followers={s['followers']} "
-          f"reviews={s['reviews']} rank={grade} ({percentile:.2f}%) "
-          f"lastYear={s['calendar']['totalContributions']}")
+          f"by_year={s['by_year']}")
 
 
 if __name__ == "__main__":

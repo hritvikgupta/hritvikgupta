@@ -206,16 +206,7 @@ gantt
   <img src="assets/langs.svg" height="230" alt="Most used languages" />
 </p>
 
-<p align="center">
-  <img src="assets/contributions.svg" width="100%" alt="Contribution activity over the last year" />
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hritvikgupta/hritvikgupta/output/github-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/hritvikgupta/hritvikgupta/output/github-snake.svg" width="100%" alt="A snake eating my contribution graph" />
-</picture>
-
-<sub>The stats, language, and contribution cards above are generated from the GitHub GraphQL API by <a href="scripts/generate_stats.py"><code>scripts/generate_stats.py</code></a> and refreshed daily by <a href=".github/workflows/stats.yml">Actions</a> — no third-party services.</sub>
+<sub>Both cards are generated straight from the GitHub GraphQL API by <a href="scripts/generate_stats.py"><code>scripts/generate_stats.py</code></a> — no third-party services, nothing that can 503 on you.</sub>
 
 ---
 
