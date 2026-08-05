@@ -1,75 +1,37 @@
-<img src="assets/hero-banner.svg" width="100%" alt="Hritvik Gupta — software & AI-agent engineer" />
+<img src="assets/hero.svg" width="100%" alt="Hritvik Gupta — software & AI-agent engineer. I build agents that do real work, not demos. Multi-agent orchestration, longitudinal memory, and the eval harnesses that keep them honest." />
 
-```typescript
-const hritvik: AgentEngineer = {
-  role:     "Software & AI-Agent Engineer @ Penn Medicine · Verma Lab",
-  thesis:   "agents should do real work — not demos",
-  building: ["autonomous agents", "LLM infrastructure", "agent evals & benchmarks"],
-  runtime:  { languages: ["Python", "TypeScript", "Swift"], degree: "MS CompE, UC Riverside" },
-  now:      "multi-agent orchestration · longitudinal agent memory · self-hosted agent infra",
-};
-```
+**[Portfolio](https://hritvikgupta.in/)** &nbsp;·&nbsp; **[LinkedIn](https://linkedin.com/in/hritvik-gupta)** &nbsp;·&nbsp; **[Email](mailto:hritvik2920@gmail.com)**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-hritvikgupta.in-00e5ff?style=flat&labelColor=0d1117)](https://hritvikgupta.in/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-hritvik--gupta-7c4dff?style=flat&labelColor=0d1117&logo=linkedin&logoColor=white)](https://linkedin.com/in/hritvik-gupta)
-[![Email](https://img.shields.io/badge/Email-hritvik2920%40gmail.com-ff4dd2?style=flat&labelColor=0d1117&logo=gmail&logoColor=white)](mailto:hritvik2920@gmail.com)
+## Selected work
 
-## ⚡ Open Source — agents that ship
+<div>
+<a href="https://github.com/hritvikgupta/nimbus"><img src="assets/card-nimbus.svg" width="48.6%" alt="nimbus — an AI cloud control plane. One agent that reads your code and acts on real AWS and GCP credentials to fix your infra." /></a>
+<a href="https://github.com/hritvikgupta/reagent"><img src="assets/card-reagent.svg" width="48.6%" alt="reagent — autonomous research agents that read the literature, weigh the evidence, and return a cited, reproducible answer." /></a>
+<a href="https://github.com/hritvikgupta/Archimyst-Terminal"><img src="assets/card-archimyst.svg" width="48.6%" alt="Archimyst Terminal — a council of agents in your terminal. Symbol indexing and coordinated edits across million-line codebases." /></a>
+<a href="https://github.com/hritvikgupta/trytine"><img src="assets/card-tine.svg" width="48.6%" alt="Tine — a second cursor that watches your screen, suggests help, and on your say-so takes over and finishes the task." /></a>
+</div>
 
-<a href="https://github.com/hritvikgupta/nimbus"><img src="https://opengraph.githubassets.com/hg1/hritvikgupta/nimbus" alt="nimbus" width="49%" /></a>
-<a href="https://github.com/hritvikgupta/reagent"><img src="https://opengraph.githubassets.com/hg1/hritvikgupta/reagent" alt="reagent" width="49%" /></a>
-<a href="https://github.com/hritvikgupta/Archimyst-Terminal"><img src="https://opengraph.githubassets.com/hg1/hritvikgupta/Archimyst-Terminal" alt="Archimyst Terminal" width="49%" /></a>
-<a href="https://github.com/hritvikgupta/trytine"><img src="https://opengraph.githubassets.com/hg1/hritvikgupta/trytine" alt="tine" width="49%" /></a>
+## How I build
 
-| | |
-|---|---|
-| ☁️ **[nimbus](https://github.com/hritvikgupta/nimbus)** | *Talk to your cloud.* Self-hostable agent that reads your code, operates AWS & GCP, and opens PRs — `CloudWatch → root cause → fix → PR`, on its own |
-| 🔬 **[reagent](https://github.com/hritvikgupta/reagent)** | Autonomous research agents: read the literature, weigh the evidence, run the experiment, return a cited, reproducible answer |
-| 🖥️ **[Archimyst Terminal](https://github.com/hritvikgupta/Archimyst-Terminal)** | Native agentic coding engineer for the terminal — design, build, debug, and ship production systems from the CLI |
-| 🍎 **[tine](https://github.com/hritvikgupta/trytine)** | Native macOS AI companion, written in Swift |
+**Tools over talk.** An agent's output is a side effect in the real world — a merged PR, a rolled-back deploy, an escalation — not a paragraph that reads well.
 
-## 🧠 How I think about agents
+**Memory is the hard part.** Continuity across sessions beats brilliance inside one. Most agents feel dumb because they forget, not because they can't reason.
 
-```
-perception ──▶ reasoning ──▶ action ──▶ verification
-    ▲                                        │
-    └────────────── memory ◀─────────────────┘
-```
+**Evals or it didn't happen.** Every agent I ship gets a benchmark harness with deterministic checks before it ever meets a user.
 
-- **Tools over talk** — an agent's output is a side-effect in the real world (a PR, a schedule, an escalation), not a paragraph
-- **Memory is the hard part** — continuity across sessions beats brilliance within one
-- **Evals or it didn't happen** — every agent I ship gets a benchmark harness with deterministic checks before it meets users
-- **Self-hostable by default** — your data, your infra, your agent
+**Self-hostable by default.** Your data, your infrastructure, your keys. An agent with production credentials should run where you can see it.
 
-## 🔬 Research
+## Stack
 
-- Genome-wide pleiotropy analysis — *medRxiv, 2025*
-- Extractive text summarization with ELMo — *IEEE I-SMAC*
-- EEG microstate analysis with RNNs — *i-PACT*
-- LSA topic modeling + BERT — *AI Smart Systems*
+<img src="assets/stack.svg" width="100%" alt="Stack — Languages: Python, TypeScript, Swift, SQL, Bash. Agents and models: PyTorch, MCP, tool use, retrieval, eval harnesses, orchestration. Backend and data: FastAPI, Node, React, PostgreSQL, pgvector, Redis, Spark. Cloud: AWS, GCP, Azure, Docker, Databricks." />
 
-## 🛰️ Stack
+## Research
 
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white&style=flat)
-![Swift](https://img.shields.io/badge/-Swift-F05138?logo=swift&logoColor=white&style=flat)
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=nodedotjs&logoColor=white&style=flat)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white&style=flat)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?logo=redis&logoColor=white&style=flat)
-![Spark](https://img.shields.io/badge/-Spark-E25A1C?logo=apachespark&logoColor=white&style=flat)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?logo=amazonwebservices&logoColor=white&style=flat)
-![GCP](https://img.shields.io/badge/-GCP-4285F4?logo=googlecloud&logoColor=white&style=flat)
-![Azure](https://img.shields.io/badge/-Azure-0078D4?logo=icloud&logoColor=white&style=flat)
+- **Genome-wide pleiotropy analysis** — *medRxiv*, 2025
+- **Extractive text summarization with ELMo** — *IEEE I-SMAC*
+- **EEG microstate analysis with recurrent networks** — *i-PACT*
+- **LSA topic modeling with BERT** — *AI Smart Systems*
 
-## 📡 GitHub
+---
 
-<p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=hritvikgupta&show_icons=true&theme=transparent&hide_border=true" height="165" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com?user=hritvikgupta&theme=transparent&hide_border=true" height="165" alt="GitHub Streak" />
-</p>
-
-<p align="center"><sub><code>~/hritvik $ agents --status</code> → <b>shipping</b> ▊</sub></p>
+<sub>Software &amp; AI-agent engineer at Penn Medicine · Verma Lab. Happy to talk about agents that have to work in the real world — <a href="mailto:hritvik2920@gmail.com">hritvik2920@gmail.com</a></sub>

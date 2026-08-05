@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Stack: languages, agents and models, backend and data, cloud">
+  <title>Stack</title>
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1279" height="299" rx="16" fill="#0A0B0D" stroke="#1E222A"/>
+
+  <text class="mono" x="40" y="45" font-size="10.5" letter-spacing="2.6" fill="#FF6B4A">STACK</text>
+  <text class="mono" x="1240" y="45" font-size="10.5" letter-spacing="1.6" fill="#3F454F" text-anchor="end">WHAT I REACH FOR FIRST</text>
+  <line x1="40" y1="66.5" x2="1240" y2="66.5" stroke="#191C21"/>
+
+  <text class="mono" x="40" y="104" font-size="10.5" letter-spacing="1.8" fill="#5A616D">LANGUAGES</text>
+  <text class="sans" x="250" y="105" font-size="15" fill="#C5CAD3">Python · TypeScript · Swift · SQL · Bash</text>
+  <line x1="40" y1="125.5" x2="1240" y2="125.5" stroke="#141619"/>
+
+  <text class="mono" x="40" y="163" font-size="10.5" letter-spacing="1.8" fill="#5A616D">AGENTS &amp; MODELS</text>
+  <text class="sans" x="250" y="164" font-size="15" fill="#C5CAD3">PyTorch · MCP · tool use · retrieval · eval harnesses · orchestration</text>
+  <line x1="40" y1="184.5" x2="1240" y2="184.5" stroke="#141619"/>
+
+  <text class="mono" x="40" y="222" font-size="10.5" letter-spacing="1.8" fill="#5A616D">BACKEND &amp; DATA</text>
+  <text class="sans" x="250" y="223" font-size="15" fill="#C5CAD3">FastAPI · Node · React · PostgreSQL · pgvector · Redis · Spark</text>
+  <line x1="40" y1="243.5" x2="1240" y2="243.5" stroke="#141619"/>
+
+  <text class="mono" x="40" y="281" font-size="10.5" letter-spacing="1.8" fill="#5A616D">CLOUD</text>
+  <text class="sans" x="250" y="282" font-size="15" fill="#C5CAD3">AWS · GCP · Azure · Docker · Databricks</text>
+</svg>
