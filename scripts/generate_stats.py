@@ -1,34 +1,35 @@
 #!/usr/bin/env python3
-"""Generate the GitHub stat cards for the profile README.
+"""Regenerate the GitHub statistics section of README.md as native markdown.
 
-Pulls real numbers from the GitHub GraphQL API and renders three SVG cards
-(assets/stats.svg, assets/langs.svg, assets/contributions.svg) in the profile's
-light design system. Run by .github/workflows/stats.yml on a schedule so the
-cards stay current without depending on any third-party service.
+No images. Everything this writes is markdown GitHub renders itself — a Mermaid
+`xychart` and plain tables — dropped in between the <!-- stats:start --> and
+<!-- stats:end --> markers in README.md.
+
+On private contributions
+------------------------
+GitHub does not expose them over the API: `restrictedContributionsCount` comes
+back as 0 and the calendar counts public activity only, even when the request
+is authenticated as the account owner. The single switch that changes this is
+Settings -> Public profile -> "Include private contributions on my profile".
+Turn it on and every number below counts private work too, unchanged code.
 
 Usage:  GITHUB_TOKEN=... python3 scripts/generate_stats.py
 """
 
 import json
-import math
 import os
+import re
 import sys
 import urllib.request
-from datetime import datetime, timezone
-from html import escape
+from collections import OrderedDict
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 USER = os.environ.get("PROFILE_USER", "hritvikgupta")
 TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
-ROOT = Path(__file__).resolve().parent.parent
-ASSETS = ROOT / "assets"
+README = Path(__file__).resolve().parent.parent / "README.md"
+START, END = "<!-- stats:start -->", "<!-- stats:end -->"
 
-# light design system
-BG, BORDER, HAIR = "#FFFFFF", "#E3E6EA", "#EDF0F3"
-INK, MUTED, DIM, ACCENT = "#16191D", "#525C68", "#8B95A1", "#E14D2A"
-TINT = "#FBD9CE"
-MONO = 'ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace'
-SANS = '-apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif'
 
 
 def graphql(query, variables):
@@ -53,19 +54,16 @@ def graphql(query, variables):
 PROFILE_Q = """
 query($login: String!, $after: String) {
   user(login: $login) {
-    name login createdAt
+    createdAt
     followers { totalCount }
-    pullRequests { totalCount }
-    issues { totalCount }
-    repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST, ISSUE, REPOSITORY]) { totalCount }
     repositories(first: 100, after: $after, ownerAffiliations: OWNER, isFork: false,
                  orderBy: {field: STARGAZERS, direction: DESC}) {
       totalCount
       pageInfo { hasNextPage endCursor }
       nodes {
-        name stargazerCount forkCount
+        stargazerCount
         languages(first: 12, orderBy: {field: SIZE, direction: DESC}) {
-          edges { size node { name color } }
+          edges { size node { name } }
         }
       }
     }
@@ -73,14 +71,15 @@ query($login: String!, $after: String) {
 }
 """
 
-YEAR_Q = """
+CALENDAR_Q = """
 query($login: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $login) {
     contributionsCollection(from: $from, to: $to) {
-      totalCommitContributions
       restrictedContributionsCount
-      totalPullRequestReviewContributions
-      contributionCalendar { totalContributions }
+      contributionCalendar {
+        totalContributions
+        weeks { contributionDays { date contributionCount } }
+      }
     }
   }
 }
@@ -101,24 +100,23 @@ def fetch():
     created = datetime.fromisoformat(base["createdAt"].replace("Z", "+00:00"))
     now = datetime.now(timezone.utc)
 
-    commits = reviews = contributions = 0
-    by_year = []
+    days, total, restricted = {}, 0, 0
     for year in range(created.year, now.year + 1):
         frm = max(created, datetime(year, 1, 1, tzinfo=timezone.utc))
         to = min(now, datetime(year, 12, 31, 23, 59, 59, tzinfo=timezone.utc))
         if frm >= to:
             continue
-        c = graphql(YEAR_Q, {"login": USER, "from": frm.isoformat(), "to": to.isoformat()})
-        c = c["user"]["contributionsCollection"]
-        year_commits = c["totalCommitContributions"] + c["restrictedContributionsCount"]
-        by_year.append((year, year_commits))
-        commits += year_commits
-        reviews += c["totalPullRequestReviewContributions"]
-        contributions += (c["contributionCalendar"]["totalContributions"]
-                          + c["restrictedContributionsCount"])
+        c = graphql(CALENDAR_Q, {
+            "login": USER, "from": frm.isoformat(), "to": to.isoformat(),
+        })["user"]["contributionsCollection"]
+        total += c["contributionCalendar"]["totalContributions"]
+        restricted += c["restrictedContributionsCount"]
+        for week in c["contributionCalendar"]["weeks"]:
+            for d in week["contributionDays"]:
+                days[d["date"]] = d["contributionCount"]
 
-    # Normalise language bytes *within* each repo before summing, so a single
-    # asset-heavy repository can't claim 90% of the profile.
+    # Language share is normalised within each repo first, so one asset-heavy
+    # repository can't claim most of the profile.
     langs = {}
     for repo in repos:
         edges = repo["languages"]["edges"]
@@ -126,154 +124,128 @@ def fetch():
         if not repo_total:
             continue
         for edge in edges:
-            node = edge["node"]
-            entry = langs.setdefault(node["name"], {"size": 0.0, "color": node["color"] or "#8B95A1"})
-            entry["size"] += edge["size"] / repo_total
+            langs[edge["node"]["name"]] = langs.get(edge["node"]["name"], 0.0) + edge["size"] / repo_total
 
     return {
-        "name": base["name"] or base["login"],
         "created": created,
+        "total": total + restricted,
+        "restricted": restricted,
+        "days": days,
         "stars": sum(r["stargazerCount"] for r in repos),
-        "forks": sum(r["forkCount"] for r in repos),
         "repos": base["repositories"]["totalCount"],
         "followers": base["followers"]["totalCount"],
-        "prs": base["pullRequests"]["totalCount"],
-        "issues": base["issues"]["totalCount"],
-        "contributed": base["repositoriesContributedTo"]["totalCount"],
-        "commits": commits,
-        "by_year": by_year,
-        "reviews": reviews,
-        "contributions": contributions,
         "langs": langs,
     }
 
 
+def streaks(days):
+    if not days:
+        return (0, None, None), (0, None, None)
+    ordered = sorted(days)
+    first, last = date.fromisoformat(ordered[0]), date.fromisoformat(ordered[-1])
 
-def human(n):
-    if n >= 1_000_000:
-        return f"{n / 1_000_000:.1f}M".replace(".0M", "M")
-    if n >= 1_000:
-        return f"{n:,}"
-    return str(n)
+    best, run_len, run_start = (0, None, None), 0, None
+    day = first
+    while day <= last:
+        if days.get(day.isoformat(), 0) > 0:
+            run_start = run_start or day
+            run_len += 1
+            if run_len > best[0]:
+                best = (run_len, run_start, day)
+        else:
+            run_len, run_start = 0, None
+        day += timedelta(days=1)
+
+    cur_len, cur_end = 0, None
+    day = last
+    while day >= first:
+        if days.get(day.isoformat(), 0) > 0:
+            cur_end = cur_end or day
+            cur_len += 1
+        elif day != last:
+            break
+        day -= timedelta(days=1)
+    cur_start = cur_end - timedelta(days=cur_len - 1) if cur_len else None
+    return best, (cur_len, cur_start, cur_end)
 
 
-def arc(cx, cy, r, frac):
-    """Path for a circular arc starting at 12 o'clock, sweeping clockwise."""
-    frac = min(max(frac, 0.001), 0.999)
-    angle = 2 * math.pi * frac - math.pi / 2
-    x, y = cx + r * math.cos(angle), cy + r * math.sin(angle)
-    large = 1 if frac > 0.5 else 0
-    return f"M {cx} {cy - r} A {r} {r} 0 {large} 1 {x:.2f} {y:.2f}"
+def fmt(d):
+    return d.strftime("%b %-d, %Y") if d else "—"
 
 
-def head(width, label, right=""):
-    return (
-        f'<rect x="0.5" y="0.5" width="{width - 1}" height="{{h}}" rx="13" fill="{BG}" stroke="{BORDER}"/>'
-        f'<text class="mono" x="30" y="38" font-size="11" letter-spacing="2.4" fill="{ACCENT}">{label}</text>'
-        f'<text class="mono" x="{width - 30}" y="38" font-size="10" letter-spacing="1.4" fill="{DIM}" '
-        f'text-anchor="end">{right}</text>'
-        f'<line x1="30" y1="56.5" x2="{width - 30}" y2="56.5" stroke="{HAIR}"/>'
+def monthly(days, months=12):
+    buckets = OrderedDict()
+    for iso in sorted(days):
+        buckets[iso[:7]] = buckets.get(iso[:7], 0) + days[iso]
+    return list(buckets.items())[-months:]
+
+
+def render(s):
+    (long_len, long_a, long_b), (cur_len, cur_a, cur_b) = streaks(s["days"])
+    series = monthly(s["days"])
+    labels = ", ".join(date.fromisoformat(f"{k}-01").strftime("%b") for k, _ in series)
+    values = ", ".join(str(v) for _, v in series)
+    ceiling = max((v for _, v in series), default=0)
+    ceiling = max(10, ceiling + max(5, ceiling // 8))
+    last_year = sum(v for _, v in series)
+
+    top = sorted(s["langs"].items(), key=lambda kv: kv[1], reverse=True)[:8]
+    total_share = sum(v for _, v in top) or 1
+    rows = []
+    for name, size in top:
+        pct = 100 * size / total_share
+        rows.append(f"| {name} | `{'█' * round(pct / 2.5)}` | {pct:.1f}% |")
+
+    note = "" if s["restricted"] else (
+        "\n> [!NOTE]\n"
+        "> Counts reflect public activity only. Private contributions are hidden until\n"
+        "> *Settings → Public profile → Include private contributions on my profile* is enabled.\n"
     )
 
+    return f"""### Contributions
 
-def stats_card(s):
-    rows = [
-        ("Total stars earned", human(s["stars"])),
-        ("Total commits", human(s["commits"])),
-        ("Total contributions", human(s["contributions"])),
-        ("Total pull requests", human(s["prs"])),
-        ("Total issues", human(s["issues"])),
-        ("Repositories", human(s["repos"])),
-    ]
-    lines = "".join(
-        f'<text class="sans" x="30" y="{92 + i * 26}" font-size="13" fill="{MUTED}">{escape(label)}</text>'
-        f'<text class="mono" x="300" y="{92 + i * 26}" font-size="13.5" font-weight="600" '
-        f'fill="{INK}" text-anchor="end">{value}</text>'
-        for i, (label, value) in enumerate(rows)
-    )
+```mermaid
+xychart-beta
+    title "Contributions per month"
+    x-axis [{labels}]
+    y-axis "Contributions" 0 --> {ceiling}
+    bar [{values}]
+```
 
-    # commits per year — real, verifiable, and it actually shows a trajectory
-    years = s["by_year"]
-    peak = max((c for _, c in years), default=1) or 1
-    x0, x1, base, tall = 342.0, 490.0, 208.0, 96.0
-    bw = (x1 - x0 - (len(years) - 1) * 5) / max(len(years), 1)
-    bars = []
-    for i, (year, count) in enumerate(years):
-        h = max(2.0, tall * count / peak)
-        x = x0 + i * (bw + 5)
-        bars.append(
-            f'<rect x="{x:.1f}" y="{base - h:.1f}" width="{bw:.1f}" height="{h:.1f}" rx="2.5" '
-            f'fill="{ACCENT if count == peak else TINT}"/>'
-        )
-        if count == peak:
-            bars.append(
-                f'<text class="mono" x="{x + bw / 2:.1f}" y="{base - h - 7:.1f}" font-size="9" '
-                f'font-weight="600" fill="{ACCENT}" text-anchor="middle">{count}</text>'
-            )
+| | Total contributions | Current streak | Longest streak | Last 12 months |
+|---|---|---|---|---|
+| **Activity** | **{s['total']:,}** <br /><sub>{fmt(s['created'].date())} – present</sub> | **{cur_len}** {'day' if cur_len == 1 else 'days'} <br /><sub>{fmt(cur_a)}{' – ' + fmt(cur_b) if cur_len else ''}</sub> | **{long_len}** {'day' if long_len == 1 else 'days'} <br /><sub>{fmt(long_a)} – {fmt(long_b)}</sub> | **{last_year:,}** |
+| **Presence** | **{s['repos']}** repositories | **{s['stars']}** stars earned | **{s['followers']}** followers | **{datetime.now(timezone.utc).year - s['created'].year}** years on GitHub |
 
-    axis = ""
-    if years:
-        axis = (
-            f'<text class="mono" x="{x0:.1f}" y="{base + 15}" font-size="8.5" fill="{DIM}">{years[0][0]}</text>'
-            f'<text class="mono" x="{x1:.1f}" y="{base + 15}" font-size="8.5" fill="{DIM}" '
-            f'text-anchor="end">{years[-1][0]}</text>'
-        )
+### Most used languages
 
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="520" height="270" viewBox="0 0 520 270" role="img" aria-label="GitHub statistics for {USER}">
-  <title>GitHub statistics — {human(s['stars'])} stars, {human(s['commits'])} commits</title>
-  <defs><style>.mono{{font-family:{MONO}}}.sans{{font-family:{SANS}}}</style></defs>
-  {head(520, 'GITHUB STATS', f'{datetime.now(timezone.utc).year - s["created"].year} YEARS ON GITHUB').format(h=269)}
-  {lines}
-  <text class="mono" x="342" y="86" font-size="9" letter-spacing="1.6" fill="{DIM}">COMMITS BY YEAR</text>
-  <line x1="342" y1="{base + 0.5}" x2="490" y2="{base + 0.5}" stroke="{HAIR}"/>
-  {''.join(bars)}
-  {axis}
-</svg>
-"""
+| Language | | Share |
+|---|---|--:|
+{chr(10).join(rows)}
 
-
-def langs_card(s):
-    top = sorted(s["langs"].items(), key=lambda kv: kv[1]["size"], reverse=True)[:8]
-    total = sum(v["size"] for _, v in top) or 1
-
-    bar, x = [], 30.0
-    width = 400.0
-    for _, meta in top:
-        w = width * meta["size"] / total
-        bar.append(f'<rect x="{x:.2f}" y="76" width="{max(w - 1.5, 1):.2f}" height="10" rx="3" fill="{meta["color"]}"/>')
-        x += w
-
-    legend = []
-    for i, (name, meta) in enumerate(top):
-        lx, ly = 30 + (i % 2) * 208, 124 + (i // 2) * 27
-        pct = 100 * meta["size"] / total
-        legend.append(
-            f'<circle cx="{lx + 5}" cy="{ly - 4}" r="5" fill="{meta["color"]}"/>'
-            f'<text class="sans" x="{lx + 18}" y="{ly}" font-size="12.5" fill="{MUTED}">{escape(name)}</text>'
-            f'<text class="mono" x="{lx + 186}" y="{ly}" font-size="11.5" fill="{DIM}" text-anchor="end">{pct:.1f}%</text>'
-        )
-
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="460" height="270" viewBox="0 0 460 270" role="img" aria-label="Most used languages for {USER}">
-  <title>Most used languages — {', '.join(n for n, _ in top[:4])}</title>
-  <defs><style>.mono{{font-family:{MONO}}}.sans{{font-family:{SANS}}}</style></defs>
-  {head(460, 'MOST USED LANGUAGES', 'REPO-WEIGHTED').format(h=269)}
-  {''.join(bar)}
-  {''.join(legend)}
-  <line x1="30" y1="240.5" x2="430" y2="240.5" stroke="{HAIR}"/>
-  <text class="mono" x="30" y="258" font-size="9" letter-spacing="1.5" fill="{DIM}">ACROSS {s['repos']} REPOSITORIES</text>
-</svg>
-"""
-
+<sub>Normalised per repository, so a single asset-heavy repo can't dominate. Regenerated by <a href="scripts/generate_stats.py"><code>scripts/generate_stats.py</code></a>.</sub>
+{note}"""
 
 
 def main():
     s = fetch()
-    ASSETS.mkdir(exist_ok=True)
-    (ASSETS / "stats.svg").write_text(stats_card(s))
-    (ASSETS / "langs.svg").write_text(langs_card(s))
-    print(f"stars={s['stars']} commits={s['commits']} contributions={s['contributions']} "
-          f"prs={s['prs']} issues={s['issues']} repos={s['repos']} followers={s['followers']} "
-          f"by_year={s['by_year']}")
+    body = render(s)
+    text = README.read_text()
+    if START not in text or END not in text:
+        sys.exit(f"markers {START} / {END} not found in README.md")
+    text = re.sub(
+        rf"{re.escape(START)}.*?{re.escape(END)}",
+        f"{START}\n{body}\n{END}",
+        text,
+        flags=re.S,
+    )
+    README.write_text(text)
+    (long_len, _, _), (cur_len, _, _) = streaks(s["days"])
+    print(f"total={s['total']} restricted={s['restricted']} current={cur_len} "
+          f"longest={long_len} repos={s['repos']} stars={s['stars']}")
+    if not s["restricted"]:
+        print("note: private contributions are invisible to the API — enable the profile "
+              "setting to have them counted.")
 
 
 if __name__ == "__main__":

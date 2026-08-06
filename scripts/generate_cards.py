@@ -5,17 +5,20 @@ These don't change often, so they're generated once and committed. Re-run after
 editing the CARDS / HERO data below:  python3 scripts/generate_cards.py
 """
 
+import sys
 from html import escape
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from font import STACK, face_css  # noqa: E402
+
 ASSETS = Path(__file__).resolve().parent.parent / "assets"
 
-BG, BORDER, HAIR = "#FFFFFF", "#E3E6EA", "#EDF0F3"
-INK, MUTED, DIM, ACCENT = "#16191D", "#525C68", "#8B95A1", "#E14D2A"
-SOFT = "#F6F8FA"
-MONO = 'ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace'
-SANS = '-apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif'
-STYLE = f'<defs><style>.mono{{font-family:{MONO}}}.sans{{font-family:{SANS}}}</style></defs>'
+# GitHub dark palette, so the cards sit inside the page instead of on top of it
+BG, BORDER, HAIR = "#0d1117", "#30363d", "#21262d"
+INK, MUTED, DIM, ACCENT = "#e6edf3", "#8b949e", "#6e7681", "#FF6B4A"
+SOFT = "#161b22"
+STYLE = f'<defs><style>{face_css()}.mono,.sans{{font-family:{STACK}}}</style></defs>'
 
 CHIPS = ["AGENTS", "LLM-INFRA", "RAG", "EVALS", "CLOUD-OPS", "TERMINAL-TOOLS"]
 
@@ -68,8 +71,8 @@ def agent_loop(cx, cy, r=88, nw=94, nh=26):
         )
 
     return f"""
-  <g fill="none" stroke="#C6CDD5" stroke-width="1.2" marker-end="url(#arrow)">{''.join(arcs)}</g>
-  <circle cx="{cx}" cy="{cy}" r="27" fill="none" stroke="#F0BCAC" stroke-width="1" stroke-dasharray="2 4"/>
+  <g fill="none" stroke="#3d444d" stroke-width="1.2" marker-end="url(#arrow)">{''.join(arcs)}</g>
+  <circle cx="{cx}" cy="{cy}" r="27" fill="none" stroke="#5c3327" stroke-width="1" stroke-dasharray="2 4"/>
   <text class="mono" x="{cx}" y="{cy + 3}" font-size="8" letter-spacing="1.5" fill="{ACCENT}" text-anchor="middle">MEMORY</text>
   {''.join(nodes)}
   <text class="mono" x="{cx}" y="{cy + r + 40}" font-size="8.5" letter-spacing="2" fill="{DIM}" text-anchor="middle">THE LOOP I OPTIMIZE</text>"""
@@ -78,7 +81,7 @@ def agent_loop(cx, cy, r=88, nw=94, nh=26):
 def hero():
     chips, x = [], 44.0
     for label in CHIPS:
-        w = len(label) * 6.0 + len(label) * 1.4 + 22
+        w = len(label) * 6.9 + len(label) * 1.4 + 22
         chips.append(
             f'<rect x="{x:.1f}" y="288" width="{w:.1f}" height="26" rx="13" fill="{SOFT}" stroke="{BORDER}"/>'
             f'<text class="mono" x="{x + w / 2:.1f}" y="305" font-size="10" letter-spacing="1.4" '
@@ -91,7 +94,7 @@ def hero():
   {STYLE}
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M0 0.5 L9 5 L0 9.5 Z" fill="#C6CDD5"/>
+      <path d="M0 0.5 L9 5 L0 9.5 Z" fill="#3d444d"/>
     </marker>
   </defs>
 
