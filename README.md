@@ -1,7 +1,5 @@
 <img src="assets/banner.jpg" width="100%" alt="" />
 
-<img src="assets/hero.svg" width="100%" alt="Hritvik Gupta — AI Engineer @ Penn Medicine · Verma Lab. I build agents that do real work, not demos. Multi-agent orchestration, longitudinal memory, RAG and retrieval, eval harnesses, LLM infrastructure." />
-
 <p align="center">
   <a href="https://hritvikgupta.github.io/hritvik-gupta/"><img src="https://img.shields.io/badge/Portfolio-hritvikgupta.github.io-E14D2A?style=for-the-badge&labelColor=FFFFFF&logo=googlechrome&logoColor=E14D2A" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/hritvik-gupta-link/"><img src="https://img.shields.io/badge/LinkedIn-hritvik--gupta-0A66C2?style=for-the-badge&labelColor=FFFFFF&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" /></a>
@@ -17,7 +15,7 @@
 
 ---
 
-## 👋 About me
+## About me
 
 I'm **Hritvik** — an AI engineer at **Penn Medicine (Verma Lab)**, where I ship voice and chat systems that real patients actually use. Outside of work I build **autonomous agents**: things that read your code, operate your cloud, read the literature, and hand back a result you can verify.
 
@@ -45,7 +43,7 @@ ask-me-about: [RAG at scale, agent evals, multilingual speech pipelines, genomic
 
 ---
 
-## 🚀 What I'm building
+## What I'm building
 
 <div>
 <a href="https://github.com/hritvikgupta/nimbus"><img src="assets/card-nimbus.svg" width="48.6%" alt="nimbus — an AI cloud control plane. One agent that reads your code and acts on real AWS and GCP credentials to fix your infra." /></a>
@@ -71,7 +69,7 @@ ask-me-about: [RAG at scale, agent evals, multilingual speech pipelines, genomic
 
 ---
 
-## 🧠 How I build agents
+## How I build agents
 
 ```mermaid
 flowchart LR
@@ -101,7 +99,7 @@ flowchart LR
 
 ---
 
-## 💼 Experience
+## Experience
 
 ```mermaid
 gantt
@@ -149,7 +147,7 @@ gantt
 
 ---
 
-## 🛠️ Tech stack
+## Tech stack
 
 <table>
 <tr><td><b>Languages</b></td><td>
@@ -199,7 +197,20 @@ gantt
 
 ---
 
-## 📄 Publications &amp; recognition
+## Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=hritvikgupta&show_icons=true&include_all_commits=true&bg_color=0d1117&title_color=FF6B4A&text_color=e6edf3&icon_color=FF6B4A&border_color=30363d&border_radius=13" height="200" alt="Hritvik's GitHub stats" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=hritvikgupta&layout=compact&langs_count=8&bg_color=0d1117&title_color=FF6B4A&text_color=e6edf3&icon_color=FF6B4A&border_color=30363d&border_radius=13" height="200" alt="Most used languages" />
+
+<img src="https://streak-stats.demolab.com?user=hritvikgupta&background=0d1117&border=30363d&stroke=30363d&ring=FF6B4A&fire=FF6B4A&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=FF6B4A&sideLabels=8b949e&dates=6e7681&border_radius=13" height="200" alt="Contribution streak" />
+
+</div>
+
+---
+
+## Publications &amp; recognition
 
 | Year | Work | Venue |
 |:--|:--|:--|
@@ -208,12 +219,12 @@ gantt
 | 2021 | Gupta, S. & Kal, H. — *Microstate EEG Analysis via RNN* | i-PACT |
 | 2020 | Patel, M. & **Gupta, H.** — *Extractive Text Summarization Using ELMo* | IEEE I-SMAC |
 
-> 🏅 **Health-Tech Innovation Accelerator Award** — Penn Health-Tech, 2025
+> **Health-Tech Innovation Accelerator Award** — Penn Health-Tech, 2025
 > *CIRCA: Voice-AI for general healthcare services to patients.*
 
 ---
 
-## 🤝 Let's build something
+## Let's build something
 
 I'm always up for a conversation about agents that have to work in the real world — production credentials, messy data, and users who notice when it's wrong.
 
