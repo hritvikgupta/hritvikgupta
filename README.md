@@ -207,7 +207,7 @@ gantt
 
 <div align="center">
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=hritvikgupta&show_icons=true&include_all_commits=true&bg_color=0d1117&title_color=FF6B4A&text_color=e6edf3&icon_color=FF6B4A&border_color=30363d&border_radius=13" height="200" alt="Hritvik's GitHub stats" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=hritvikgupta&show_icons=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=FF6B4A&text_color=e6edf3&icon_color=FF6B4A&border_color=30363d&border_radius=13" height="200" alt="Hritvik's GitHub stats" />
 <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs?username=hritvikgupta&layout=compact&langs_count=8&hide=html,css,scss&bg_color=0d1117&title_color=FF6B4A&text_color=e6edf3&icon_color=FF6B4A&border_color=30363d&border_radius=13" height="200" alt="Most used languages" />
 
 <img src="https://streak-stats.demolab.com?user=hritvikgupta&background=0d1117&border=30363d&stroke=30363d&ring=FF6B4A&fire=FF6B4A&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=FF6B4A&sideLabels=8b949e&dates=6e7681&border_radius=13" height="200" alt="Contribution streak" />
